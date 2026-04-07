@@ -1,0 +1,38 @@
+# dbuild configuration file
+# Place in .daemonless/config.yaml or .dbuild.yaml (higher priority)
+#
+# Full reference: https://github.com/daemonless/dbuild
+
+build:
+  variants:
+    - tag: pkg
+      containerfile: Containerfile.pkg
+      default: true
+      args:
+        BASE_VERSION: "15"
+        PKG_NAME: "samba416"
+      aliases: ["latest"]
+    - tag: pkg-latest
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"
+        PKG_NAME: "samba416"
+    - tag: 422-pkg
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15"
+        PKG_NAME: "samba422"
+    - tag: 422-pkg-latest
+      containerfile: Containerfile.pkg
+      args:
+        BASE_VERSION: "15-latest"
+        PKG_NAME: "samba422"
+    - tag: 422-pkg-krb
+      containerfile: Containerfile.krb
+      tag_desc: "**MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal."
+
+
+cit:
+  mode: port
+  port: 445
+

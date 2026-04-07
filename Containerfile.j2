@@ -1,0 +1,45 @@
+ARG BASE_VERSION=15
+FROM ghcr.io/daemonless/base:${BASE_VERSION}
+
+ARG FREEBSD_ARCH=amd64
+ARG PACKAGES="samba"
+ARG APP_VERSION="latest"
+ARG DOWNLOAD_URL="https://example.com/samba-${APP_VERSION}.tar.gz"
+
+LABEL org.opencontainers.image.title="Samba" 
+      org.opencontainers.image.description="Samba on FreeBSD." 
+      org.opencontainers.image.source="https://github.com/daemonless/samba" 
+      org.opencontainers.image.url="https://samba.org/" 
+      org.opencontainers.image.licenses="UNKNOWN"
+      org.opencontainers.image.vendor="daemonless" 
+      org.opencontainers.image.authors="daemonless" 
+      io.daemonless.category="Utilities" 
+      io.daemonless.port="8080" 
+      io.daemonless.arch="${FREEBSD_ARCH}" 
+      io.daemonless.packages="${PACKAGES}"
+      
+
+# Install dependencies
+RUN pkg update && 
+    pkg install -y ${PACKAGES} && 
+    pkg clean -ay && 
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Download and install samba
+RUN fetch -qo /tmp/samba.tar.gz "${DOWNLOAD_URL}" && 
+    mkdir -p /usr/local/share/samba && 
+    tar -xzf /tmp/samba.tar.gz -C /usr/local/share/samba --strip-components=1 && 
+    rm /tmp/samba.tar.gz && 
+    echo "${APP_VERSION}" > /app/version
+
+# Copy root filesystem
+COPY root/ /
+
+# Set permissions
+RUN chmod +x /etc/services.d/samba/run /healthz
+
+# Expose
+EXPOSE 8080
+
+# Volumes
+VOLUME /config

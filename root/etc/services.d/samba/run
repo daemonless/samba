@@ -1,0 +1,19 @@
+#!/bin/sh
+# Samba s6 service
+
+if [ ! -f /config/smb.conf ]; then
+    mkdir -p /config
+    cat > /config/smb.conf << 'EOF'
+[global]
+   workgroup = WORKGROUP
+   server string = Samba
+   server role = standalone server
+   passdb backend = tdbsam
+   map to guest = Bad User
+EOF
+fi
+
+exec /usr/local/sbin/smbd \
+    --foreground \
+    --no-process-group \
+    --configfile=/config/smb.conf

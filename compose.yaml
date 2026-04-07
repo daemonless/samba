@@ -1,0 +1,40 @@
+name: samba
+
+x-daemonless:
+  title: "Samba"
+  icon: ":simple-samba:"
+  category: "Network"
+  description: "SMB/CIFS file sharing and Active Directory compatible Domain Controller for FreeBSD."
+  upstream_url: "https://www.samba.org/"
+  web_url: "https://www.samba.org/"
+  freshports_url: "https://www.freshports.org/net/samba422/"
+  user: "root"
+  mlock: false
+  appjail: true
+
+  docs:
+    env:
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "smb.conf and persistent state"
+      /shares: "Shared data directories"
+    ports:
+      445: "SMB"
+      139: "NetBIOS session"
+
+services:
+  samba:
+    image: ghcr.io/daemonless/samba:pkg
+    container_name: samba
+    restart: unless-stopped
+
+    environment:
+      - TZ=UTC
+
+    volumes:
+      - /containers/samba:/config
+      - /shares:/shares
+
+    ports:
+      - 445:445
+      - 139:139

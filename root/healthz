@@ -1,0 +1,8 @@
+#!/bin/sh
+# Daemonless standard healthcheck for samba
+
+if nc -z 127.0.0.1 445 >/dev/null 2>&1; then
+    exit 0
+else
+    exit 1
+fi

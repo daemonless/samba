@@ -1,0 +1,96 @@
+# Stage 1: Build samba from ports with MIT Kerberos
+ARG BASE_VERSION=15
+FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+
+ARG SAMBA_VERSION=422
+
+# Install runtime deps (via pkg), plus build-only tools
+RUN pkg update && \
+    pkg rquery '%dn' samba${SAMBA_VERSION} | xargs pkg install -y && \
+    pkg install -y \
+        python311 \
+        krb5 \
+        bison \
+        p5-Parse-Yapp \
+        git-tiny \
+        FreeBSD-bmake \
+        FreeBSD-clibs-dev \
+        FreeBSD-runtime-dev \
+        FreeBSD-audit-dev \
+        FreeBSD-zlib-dev \
+        FreeBSD-libexecinfo-dev \
+        FreeBSD-ncurses-dev \
+        FreeBSD-clang \
+        FreeBSD-toolchain \
+        cmocka \
+        ncurses \
+        pkgconf \
+        docbook-xsl \
+        libxslt && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Sparse checkout — only the port we need
+RUN git clone --depth 1 --no-checkout --filter=blob:none \
+        https://git.FreeBSD.org/ports.git /tmp/ports && \
+    cd /tmp/ports && \
+    git sparse-checkout set Mk Templates Tools Keywords net/samba${SAMBA_VERSION} lang/perl5.42 lang/python311 && \
+    git checkout && \
+    ln -s /tmp/ports /usr/ports
+
+# Build with MIT Kerberos and create a pkg package
+RUN cd /tmp/ports/net/samba${SAMBA_VERSION} && \
+    make -DBATCH \
+        OPTIONS_FILE_SET="GSSAPI_MIT" \
+        OPTIONS_FILE_UNSET="GSSAPI_BUILTIN" \
+        WRKDIRPREFIX=/tmp/wrkdirs \
+        package || \
+    (find /tmp/wrkdirs -name "*.log" | xargs grep -l "error:" | head -3 | xargs tail -40 && \
+     exit 1) && \
+    find /tmp/wrkdirs -name "samba${SAMBA_VERSION}-*.pkg" | head -1 | xargs -I{} cp {} /samba-mit.pkg && \
+    rm -rf /tmp/ports /tmp/wrkdirs
+
+# ── Stage 2: Runtime image ────────────────────────────────────────────
+FROM ghcr.io/daemonless/base:${BASE_VERSION}
+
+ARG FREEBSD_ARCH=amd64
+ARG SAMBA_VERSION=422
+
+# --- Metadata (Injected by Generator) ---
+LABEL org.opencontainers.image.title="{{ title }}" \
+      org.opencontainers.image.description="{{ description }}" \
+      org.opencontainers.image.source="{{ repo_url }}" \
+      org.opencontainers.image.url="{{ web_url }}" \
+      org.opencontainers.image.licenses="GPL-3.0-or-later" \
+      org.opencontainers.image.vendor="daemonless" \
+      org.opencontainers.image.authors="daemonless" \
+      io.daemonless.category="{{ category }}" \
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.pkg-source="ports" \
+      io.daemonless.krb="mit"
+
+# Install runtime deps then install the MIT-KRB pkg built from ports
+COPY --from=builder /samba-mit.pkg /samba-mit.pkg
+RUN pkg update && \
+    pkg install -y /samba-mit.pkg && \
+    rm /samba-mit.pkg && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Store version
+RUN mkdir -p /app && pkg query '%v' samba${SAMBA_VERSION} > /app/version
+
+# Copy service definitions and scripts
+COPY root/ /
+
+RUN chmod +x /etc/services.d/samba/run /healthz
+
+# --- Expose (Injected by Generator) ---
+{%- if ports %}
+EXPOSE {{ ports | map(attribute='port') | join(' ') }}
+{%- endif %}
+
+# --- Volumes (Injected by Generator) ---
+{%- if volumes %}
+VOLUME {{ volumes | map(attribute='path') | join(' ') }}
+{%- endif %}
