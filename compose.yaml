@@ -2,7 +2,7 @@ name: samba
 
 x-daemonless:
   title: "Samba"
-  icon: ":simple-samba:"
+  icon: ":material-folder-network:"
   category: "Network"
   description: "SMB/CIFS file sharing and Active Directory compatible Domain Controller for FreeBSD."
   upstream_url: "https://www.samba.org/"
