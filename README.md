@@ -21,17 +21,14 @@ SMB/CIFS file sharing and Active Directory compatible Domain Controller for Free
 
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
-| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
-| `422-pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `422-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `416-pkg` / `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
+| `416-pkg-latest` / `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 | `422-pkg-krb` | **MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal. | Alternative build. |
-
 ## Prerequisites
 
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
-
 ## Deployment
+
 
 ### Podman Compose
 
@@ -125,7 +122,6 @@ podman run -d --name samba \
       - "/path/to/containers/samba/shares:/shares"
 ```
 
-Access at: `http://localhost:445`
 
 ## Parameters
 
