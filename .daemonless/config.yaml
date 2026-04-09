@@ -16,7 +16,7 @@ build:
       containerfile: Containerfile.pkg
       args:
         BASE_VERSION: "15-latest"
-        PKG_NAME: "samba422"
+        PKG_NAME: "samba416"
       aliases: ["416-pkg-latest"]
     - tag: 422-pkg
       containerfile: Containerfile.pkg
