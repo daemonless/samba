@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-22T21:49:12Z",
+  "generated": "2026-05-03T20:38:11Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-04-22T21:36:44Z",
+      "generated": "2026-05-03T20:25:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -79,11 +79,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -95,7 +95,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -347,7 +347,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.5_1,1"
+            "version": "46.0.7,1"
           },
           {
             "name": "py311-dnspython",
@@ -411,7 +411,7 @@
           },
           {
             "name": "py311-pyopenssl",
-            "version": "25.3.0_1,1"
+            "version": "26.0.0,1"
           },
           {
             "name": "py311-service-identity",
@@ -513,7 +513,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.5"
+            "version": "46.0.7"
           },
           {
             "name": "dnspython",
@@ -581,7 +581,7 @@
           },
           {
             "name": "pyopenssl",
-            "version": "25.3.0"
+            "version": "26.0.0"
           },
           {
             "name": "service-identity",
@@ -632,7 +632,7 @@
     "422-pkg-krb": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-04-22T21:47:29Z",
+      "generated": "2026-05-03T20:36:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -706,11 +706,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -722,7 +722,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -982,7 +982,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.5_1,1"
+            "version": "46.0.7,1"
           },
           {
             "name": "py311-dnspython",
@@ -1046,7 +1046,7 @@
           },
           {
             "name": "py311-pyopenssl",
-            "version": "25.3.0_1,1"
+            "version": "26.0.0,1"
           },
           {
             "name": "py311-service-identity",
@@ -1148,7 +1148,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.5"
+            "version": "46.0.7"
           },
           {
             "name": "dnspython",
@@ -1216,7 +1216,7 @@
           },
           {
             "name": "pyopenssl",
-            "version": "25.3.0"
+            "version": "26.0.0"
           },
           {
             "name": "service-identity",
@@ -1267,7 +1267,7 @@
     "422-pkg-latest": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-04-22T21:36:34Z",
+      "generated": "2026-05-03T20:25:47Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1341,11 +1341,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -1357,7 +1357,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1417,7 +1417,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "gamin",
@@ -1445,7 +1445,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "icu",
@@ -1473,7 +1473,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -1501,11 +1501,11 @@
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0_1"
+            "version": "1.12.2"
           },
           {
             "name": "libgpg-error",
-            "version": "1.59"
+            "version": "1.60"
           },
           {
             "name": "libiconv",
@@ -1545,7 +1545,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2_1"
+            "version": "2.15.3"
           },
           {
             "name": "lmdb",
@@ -1577,7 +1577,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "popt",
@@ -1601,7 +1601,7 @@
           },
           {
             "name": "py311-certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "py311-cffi",
@@ -1609,7 +1609,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.7,1"
+            "version": "46.0.7_1,1"
           },
           {
             "name": "py311-dnspython",
@@ -1641,7 +1641,7 @@
           },
           {
             "name": "py311-idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "py311-markdown",
@@ -1653,7 +1653,7 @@
           },
           {
             "name": "py311-packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "py311-pyasn1",
@@ -1767,7 +1767,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "cffi",
@@ -1811,7 +1811,7 @@
           },
           {
             "name": "idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "markdown",
@@ -1823,7 +1823,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "pyasn1",
@@ -1894,7 +1894,7 @@
     "423-pkg": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-04-22T21:36:22Z",
+      "generated": "2026-05-03T20:25:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1968,11 +1968,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -1984,7 +1984,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2236,7 +2236,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.5_1,1"
+            "version": "46.0.7,1"
           },
           {
             "name": "py311-dnspython",
@@ -2300,7 +2300,7 @@
           },
           {
             "name": "py311-pyopenssl",
-            "version": "25.3.0_1,1"
+            "version": "26.0.0,1"
           },
           {
             "name": "py311-service-identity",
@@ -2402,7 +2402,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.5"
+            "version": "46.0.7"
           },
           {
             "name": "dnspython",
@@ -2470,7 +2470,7 @@
           },
           {
             "name": "pyopenssl",
-            "version": "25.3.0"
+            "version": "26.0.0"
           },
           {
             "name": "service-identity",
@@ -2521,7 +2521,7 @@
     "423-pkg-krb": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-04-22T21:47:58Z",
+      "generated": "2026-05-03T20:36:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2595,11 +2595,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -2611,7 +2611,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2871,7 +2871,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.5_1,1"
+            "version": "46.0.7,1"
           },
           {
             "name": "py311-dnspython",
@@ -2935,7 +2935,7 @@
           },
           {
             "name": "py311-pyopenssl",
-            "version": "25.3.0_1,1"
+            "version": "26.0.0,1"
           },
           {
             "name": "py311-service-identity",
@@ -3037,7 +3037,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.5"
+            "version": "46.0.7"
           },
           {
             "name": "dnspython",
@@ -3105,7 +3105,7 @@
           },
           {
             "name": "pyopenssl",
-            "version": "25.3.0"
+            "version": "26.0.0"
           },
           {
             "name": "service-identity",
@@ -3156,7 +3156,7 @@
     "423-pkg-latest": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-04-22T21:36:28Z",
+      "generated": "2026-05-03T20:25:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3230,11 +3230,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -3246,7 +3246,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -3306,7 +3306,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "gamin",
@@ -3334,7 +3334,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "icu",
@@ -3362,7 +3362,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -3390,11 +3390,11 @@
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0_1"
+            "version": "1.12.2"
           },
           {
             "name": "libgpg-error",
-            "version": "1.59"
+            "version": "1.60"
           },
           {
             "name": "libiconv",
@@ -3434,7 +3434,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2_1"
+            "version": "2.15.3"
           },
           {
             "name": "lmdb",
@@ -3466,7 +3466,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "popt",
@@ -3490,7 +3490,7 @@
           },
           {
             "name": "py311-certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "py311-cffi",
@@ -3498,7 +3498,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.7,1"
+            "version": "46.0.7_1,1"
           },
           {
             "name": "py311-dnspython",
@@ -3530,7 +3530,7 @@
           },
           {
             "name": "py311-idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "py311-markdown",
@@ -3542,7 +3542,7 @@
           },
           {
             "name": "py311-packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "py311-pyasn1",
@@ -3656,7 +3656,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "cffi",
@@ -3700,7 +3700,7 @@
           },
           {
             "name": "idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "markdown",
@@ -3712,7 +3712,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "pyasn1",
@@ -3783,7 +3783,7 @@
     "pkg": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-04-22T21:36:16Z",
+      "generated": "2026-05-03T20:26:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3857,11 +3857,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -3873,7 +3873,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -4121,7 +4121,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.5_1,1"
+            "version": "46.0.7,1"
           },
           {
             "name": "py311-dnspython",
@@ -4185,7 +4185,7 @@
           },
           {
             "name": "py311-pyopenssl",
-            "version": "25.3.0_1,1"
+            "version": "26.0.0,1"
           },
           {
             "name": "py311-service-identity",
@@ -4287,7 +4287,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.5"
+            "version": "46.0.7"
           },
           {
             "name": "dnspython",
@@ -4355,7 +4355,7 @@
           },
           {
             "name": "pyopenssl",
-            "version": "25.3.0"
+            "version": "26.0.0"
           },
           {
             "name": "service-identity",
@@ -4406,7 +4406,7 @@
     "pkg-latest": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-04-22T21:37:45Z",
+      "generated": "2026-05-03T20:25:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4480,11 +4480,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -4496,7 +4496,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -4556,7 +4556,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.0"
           },
           {
             "name": "gamin",
@@ -4584,7 +4584,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "indexinfo",
@@ -4608,7 +4608,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -4636,11 +4636,11 @@
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0_1"
+            "version": "1.12.2"
           },
           {
             "name": "libgpg-error",
-            "version": "1.59"
+            "version": "1.60"
           },
           {
             "name": "libiconv",
@@ -4680,7 +4680,7 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2_1"
+            "version": "2.15.3"
           },
           {
             "name": "lmdb",
@@ -4712,7 +4712,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.4"
+            "version": "2.7.5"
           },
           {
             "name": "popt",
@@ -4736,7 +4736,7 @@
           },
           {
             "name": "py311-certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "py311-cffi",
@@ -4744,7 +4744,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "46.0.7,1"
+            "version": "46.0.7_1,1"
           },
           {
             "name": "py311-dnspython",
@@ -4776,7 +4776,7 @@
           },
           {
             "name": "py311-idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "py311-markdown",
@@ -4788,7 +4788,7 @@
           },
           {
             "name": "py311-packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "py311-pyasn1",
@@ -4902,7 +4902,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.2.25"
+            "version": "2026.4.22"
           },
           {
             "name": "cffi",
@@ -4946,7 +4946,7 @@
           },
           {
             "name": "idna",
-            "version": "3.11"
+            "version": "3.13"
           },
           {
             "name": "markdown",
@@ -4958,7 +4958,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
+            "version": "26.2"
           },
           {
             "name": "pyasn1",
