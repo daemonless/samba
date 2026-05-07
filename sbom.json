@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-03T20:38:11Z",
+  "generated": "2026-05-07T13:12:20Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-05-03T20:25:10Z",
+      "generated": "2026-05-07T13:04:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -95,7 +95,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -123,7 +123,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -183,7 +183,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "icu",
@@ -632,7 +632,7 @@
     "422-pkg-krb": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-05-03T20:36:58Z",
+      "generated": "2026-05-07T13:10:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -722,7 +722,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -750,7 +750,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -810,7 +810,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "icu",
@@ -1267,7 +1267,7 @@
     "422-pkg-latest": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-05-03T20:25:47Z",
+      "generated": "2026-05-07T12:59:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1357,7 +1357,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -1385,7 +1385,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -1433,7 +1433,7 @@
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -1485,7 +1485,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.5,1"
+            "version": "3.8.7,1"
           },
           {
             "name": "libdaemon",
@@ -1737,7 +1737,7 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "zstd",
@@ -1894,7 +1894,7 @@
     "423-pkg": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-05-03T20:25:43Z",
+      "generated": "2026-05-07T12:59:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1984,7 +1984,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2012,7 +2012,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -2072,7 +2072,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "icu",
@@ -2519,9 +2519,9 @@
       }
     },
     "423-pkg-krb": {
-      "app_version": "4.23.6_1",
+      "app_version": "4.23.7",
       "arch": "amd64",
-      "generated": "2026-05-03T20:36:12Z",
+      "generated": "2026-05-07T13:10:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2611,7 +2611,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -2639,7 +2639,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -2699,7 +2699,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "icu",
@@ -2979,7 +2979,7 @@
           },
           {
             "name": "samba423",
-            "version": "4.23.6_1"
+            "version": "4.23.7"
           },
           {
             "name": "skalibs",
@@ -3156,7 +3156,7 @@
     "423-pkg-latest": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-05-03T20:25:59Z",
+      "generated": "2026-05-07T12:59:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3246,7 +3246,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -3274,7 +3274,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -3322,7 +3322,7 @@
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -3374,7 +3374,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.5,1"
+            "version": "3.8.7,1"
           },
           {
             "name": "libdaemon",
@@ -3626,7 +3626,7 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "zstd",
@@ -3783,7 +3783,7 @@
     "pkg": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-05-03T20:26:05Z",
+      "generated": "2026-05-07T12:59:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3873,7 +3873,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -3901,7 +3901,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -3961,7 +3961,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "indexinfo",
@@ -4406,7 +4406,7 @@
     "pkg-latest": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-05-03T20:25:55Z",
+      "generated": "2026-05-07T12:59:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4496,7 +4496,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p8"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -4524,7 +4524,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "avahi-app",
@@ -4572,7 +4572,7 @@
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -4620,7 +4620,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.5,1"
+            "version": "3.8.7,1"
           },
           {
             "name": "libdaemon",
@@ -4872,7 +4872,7 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "zstd",
