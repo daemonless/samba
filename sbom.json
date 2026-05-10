@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-07T20:19:25Z",
+  "generated": "2026-05-10T07:43:54Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-05-07T20:07:05Z",
+      "generated": "2026-05-10T07:30:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -632,7 +632,7 @@
     "422-pkg-krb": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-05-07T20:17:53Z",
+      "generated": "2026-05-10T07:39:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1267,7 +1267,7 @@
     "422-pkg-latest": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-05-07T20:07:09Z",
+      "generated": "2026-05-10T07:29:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1505,7 +1505,7 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.60"
+            "version": "1.61"
           },
           {
             "name": "libiconv",
@@ -1894,7 +1894,7 @@
     "423-pkg": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-05-07T20:07:26Z",
+      "generated": "2026-05-10T07:29:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2521,7 +2521,7 @@
     "423-pkg-krb": {
       "app_version": "4.23.7",
       "arch": "amd64",
-      "generated": "2026-05-07T20:18:14Z",
+      "generated": "2026-05-10T07:42:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3154,9 +3154,9 @@
       }
     },
     "423-pkg-latest": {
-      "app_version": "4.23.6_1",
+      "app_version": "4.23.7",
       "arch": "amd64",
-      "generated": "2026-05-07T20:07:01Z",
+      "generated": "2026-05-10T07:29:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3394,7 +3394,7 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.60"
+            "version": "1.61"
           },
           {
             "name": "libiconv",
@@ -3606,7 +3606,7 @@
           },
           {
             "name": "samba423",
-            "version": "4.23.6_1"
+            "version": "4.23.7"
           },
           {
             "name": "skalibs",
@@ -3783,7 +3783,7 @@
     "pkg": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-05-07T20:06:26Z",
+      "generated": "2026-05-10T07:30:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4406,7 +4406,7 @@
     "pkg-latest": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-05-07T20:06:59Z",
+      "generated": "2026-05-10T07:29:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4640,7 +4640,7 @@
           },
           {
             "name": "libgpg-error",
-            "version": "1.60"
+            "version": "1.61"
           },
           {
             "name": "libiconv",
