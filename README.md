@@ -30,11 +30,9 @@ SMB/CIFS file sharing and Active Directory compatible Domain Controller for Free
 | `423-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 | `423-pkg-krb` | **MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal. | Alternative build. |
 
-
 ## Prerequisites
 
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
-
 
 ## Deployment
 
@@ -46,7 +44,7 @@ services:
     image: ghcr.io/daemonless/samba:latest
     container_name: samba
     environment:
-      - TZ=UTC
+      - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/samba:/config"
       - "/path/to/containers/samba/shares:/shares"
@@ -102,7 +100,6 @@ OPTION from=ghcr.io/daemonless/samba:${tag}
 ### Podman CLI
 
 ```bash
-
 podman run -d --name samba \
   -p 445:445 \
   -p 139:139 \
@@ -130,7 +127,6 @@ podman run -d --name samba \
       - "/path/to/containers/samba:/config"
       - "/path/to/containers/samba/shares:/shares"
 ```
-
 
 ## Parameters
 

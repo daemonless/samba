@@ -59,4 +59,5 @@ build:
 cit:
   mode: port
   port: 445
+  puid: false      # smbd runs as root (binds privileged 445/139); /config is root-owned by design
 
