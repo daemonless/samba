@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-06T20:00:36Z",
+  "generated": "2026-06-12T16:17:10Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.7_1",
       "arch": "amd64",
-      "generated": "2026-06-06T19:46:48Z",
+      "generated": "2026-06-12T16:05:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -630,9 +630,9 @@
       }
     },
     "422-pkg-krb": {
-      "app_version": "4.22.7_1",
+      "app_version": "4.22.10",
       "arch": "amd64",
-      "generated": "2026-06-06T19:58:09Z",
+      "generated": "2026-06-12T16:15:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -830,7 +830,7 @@
           },
           {
             "name": "krb5",
-            "version": "1.22.1"
+            "version": "1.22.2_2"
           },
           {
             "name": "libICE",
@@ -1090,7 +1090,7 @@
           },
           {
             "name": "samba422",
-            "version": "4.22.7_1"
+            "version": "4.22.10"
           },
           {
             "name": "skalibs",
@@ -1265,9 +1265,9 @@
       }
     },
     "422-pkg-latest": {
-      "app_version": "4.22.7_1",
+      "app_version": "4.22.10",
       "arch": "amd64",
-      "generated": "2026-06-06T19:46:07Z",
+      "generated": "2026-06-12T16:04:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1497,7 +1497,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.5.2"
           },
           {
             "name": "libgcrypt",
@@ -1609,7 +1609,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "48.0.0,1"
+            "version": "48.0.0_1,1"
           },
           {
             "name": "py311-dnspython",
@@ -1717,7 +1717,7 @@
           },
           {
             "name": "samba422",
-            "version": "4.22.7_1"
+            "version": "4.22.10"
           },
           {
             "name": "skalibs",
@@ -1894,7 +1894,7 @@
     "423-pkg": {
       "app_version": "4.23.6_1",
       "arch": "amd64",
-      "generated": "2026-06-06T19:46:48Z",
+      "generated": "2026-06-12T16:03:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2519,9 +2519,9 @@
       }
     },
     "423-pkg-krb": {
-      "app_version": "4.23.7_1",
+      "app_version": "4.23.8",
       "arch": "amd64",
-      "generated": "2026-06-06T19:59:26Z",
+      "generated": "2026-06-12T16:15:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2719,7 +2719,7 @@
           },
           {
             "name": "krb5",
-            "version": "1.22.1"
+            "version": "1.22.2_2"
           },
           {
             "name": "libICE",
@@ -2979,7 +2979,7 @@
           },
           {
             "name": "samba423",
-            "version": "4.23.7_1"
+            "version": "4.23.8"
           },
           {
             "name": "skalibs",
@@ -3154,9 +3154,9 @@
       }
     },
     "423-pkg-latest": {
-      "app_version": "4.23.7_1",
+      "app_version": "4.23.8",
       "arch": "amd64",
-      "generated": "2026-06-06T19:46:57Z",
+      "generated": "2026-06-12T16:05:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3386,7 +3386,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.5.2"
           },
           {
             "name": "libgcrypt",
@@ -3498,7 +3498,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "48.0.0,1"
+            "version": "48.0.0_1,1"
           },
           {
             "name": "py311-dnspython",
@@ -3606,7 +3606,7 @@
           },
           {
             "name": "samba423",
-            "version": "4.23.7_1"
+            "version": "4.23.8"
           },
           {
             "name": "skalibs",
@@ -3783,7 +3783,7 @@
     "pkg": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-06-06T19:47:37Z",
+      "generated": "2026-06-12T16:04:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4406,7 +4406,7 @@
     "pkg-latest": {
       "app_version": "4.16.11_10",
       "arch": "amd64",
-      "generated": "2026-06-06T19:47:08Z",
+      "generated": "2026-06-12T16:05:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4632,7 +4632,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.5.2"
           },
           {
             "name": "libgcrypt",
@@ -4744,7 +4744,7 @@
           },
           {
             "name": "py311-cryptography",
-            "version": "48.0.0,1"
+            "version": "48.0.0_1,1"
           },
           {
             "name": "py311-dnspython",
