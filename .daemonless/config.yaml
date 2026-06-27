@@ -5,32 +5,17 @@
 
 build:
   variants:
-    - tag: pkg
-      containerfile: Containerfile.pkg
-      pkg_name: samba416
-      default: true
-      args:
-        BASE_VERSION: "15"
-        PKG_NAME: "samba416"
-      aliases: ["latest", "416-pkg"]
-    - tag: pkg-latest
-      containerfile: Containerfile.pkg
-      pkg_name: samba416
-      args:
-        BASE_VERSION: "15-latest"
-        PKG_NAME: "samba416"
-      aliases: ["416-pkg-latest"]
     - tag: 422-pkg
       containerfile: Containerfile.pkg
       pkg_name: samba422
       args:
-        BASE_VERSION: "15"
+        BASE_VERSION: "15.1"
         PKG_NAME: "samba422"
     - tag: 422-pkg-latest
       containerfile: Containerfile.pkg
       pkg_name: samba422
       args:
-        BASE_VERSION: "15-latest"
+        BASE_VERSION: "15.1-latest"
         PKG_NAME: "samba422"
     - tag: 422-pkg-krb
       containerfile: Containerfile.krb
@@ -39,14 +24,16 @@ build:
     - tag: 423-pkg
       containerfile: Containerfile.pkg
       pkg_name: samba423
+      default: true
       args:
-        BASE_VERSION: "15"
+        BASE_VERSION: "15.1"
         PKG_NAME: "samba423"
+      aliases: ["latest"]
     - tag: 423-pkg-latest
       containerfile: Containerfile.pkg
       pkg_name: samba423
       args:
-        BASE_VERSION: "15-latest"
+        BASE_VERSION: "15.1-latest"
         PKG_NAME: "samba423"
     - tag: 423-pkg-krb
       containerfile: Containerfile.krb

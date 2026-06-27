@@ -18,20 +18,16 @@ SMB/CIFS file sharing and Active Directory compatible Domain Controller for Free
 | **Website** | [https://www.samba.org/](https://www.samba.org/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `416-pkg` / `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
-| `416-pkg-latest` / `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 | `422-pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `422-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 | `422-pkg-krb` | **MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal. | Alternative build. |
-| `423-pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
+| `423-pkg` / `latest` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
 | `423-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 | `423-pkg-krb` | **MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal. | Alternative build. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -41,7 +37,7 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   samba:
-    image: ghcr.io/daemonless/samba:latest
+    image: "ghcr.io/daemonless/samba:latest"
     container_name: samba
     environment:
       - TZ=UTC  # Timezone for the container
@@ -49,16 +45,17 @@ services:
       - "/path/to/containers/samba:/config"
       - "/path/to/containers/samba/shares:/shares"
     ports:
-      - 445:445
-      - 139:139
+      - "445:445"
+      - "139:139"
     restart: unless-stopped
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=samba
 TZ=UTC
 ```
@@ -66,6 +63,8 @@ TZ=UTC
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - virtualnet: ':<random> default'
   - nat:
@@ -74,6 +73,8 @@ services:
     name: samba
     options:
       - container: 'boot args:--pull'
+      - expose: '445:445 proto:tcp' \
+      - expose: '139:139 proto:tcp' \
     oci:
       user: root
       environment:
@@ -91,11 +92,14 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=latest
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/samba:${tag}
 ```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
 
@@ -109,13 +113,30 @@ podman run -d --name samba \
   ghcr.io/daemonless/samba:latest
 ```
 
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -o expose="445:445 proto:tcp" \
+  -o expose="139:139 proto:tcp" \
+  -e TZ=UTC \
+  -o fstab="/path/to/containers/samba /config <pseudofs>" \
+  -o fstab="/path/to/containers/samba/shares /shares <pseudofs>" \
+  ghcr.io/daemonless/samba:latest samba
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
 ### Ansible
 
 ```yaml
 - name: Deploy samba
   containers.podman.podman_container:
     name: samba
-    image: ghcr.io/daemonless/samba:latest
+    image: "ghcr.io/daemonless/samba:latest"
     state: started
     restart_policy: always
     env:
@@ -152,7 +173,7 @@ podman run -d --name samba \
 
 **Architectures:** amd64
 **User:** `root` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15.1
 
 ---
 
