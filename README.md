@@ -43,7 +43,7 @@ services:
       - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/samba:/config"
-      - "/path/to/containers/samba/shares:/shares"
+      - "/shares:/shares"
     ports:
       - "445:445"
       - "139:139"
@@ -81,12 +81,12 @@ services:
         - TZ: !ENV '${TZ}'
     volumes:
       - samba: /config
-      - samba_shares: /shares
+      - shares: /shares
 volumes:
   samba:
     device: '/path/to/containers/samba'
-  samba_shares:
-    device: '/path/to/containers/samba/shares'
+  shares:
+    device: '/shares'
 ```
 
 **Makejail**:
@@ -109,7 +109,7 @@ podman run -d --name samba \
   -p 139:139 \
   -e TZ=UTC \
   -v /path/to/containers/samba:/config \
-  -v /path/to/containers/samba/shares:/shares \
+  -v /shares:/shares \
   ghcr.io/daemonless/samba:latest
 ```
 
@@ -125,7 +125,7 @@ appjail oci run -Pd \
   -o expose="139:139 proto:tcp" \
   -e TZ=UTC \
   -o fstab="/path/to/containers/samba /config <pseudofs>" \
-  -o fstab="/path/to/containers/samba/shares /shares <pseudofs>" \
+  -o fstab="/shares /shares <pseudofs>" \
   ghcr.io/daemonless/samba:latest samba
 ```
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
@@ -146,7 +146,7 @@ appjail oci run -Pd \
       - "139:139"
     volumes:
       - "/path/to/containers/samba:/config"
-      - "/path/to/containers/samba/shares:/shares"
+      - "/shares:/shares"
 ```
 
 ## Parameters
