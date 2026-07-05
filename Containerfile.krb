@@ -28,6 +28,7 @@ RUN pkg update && \
         FreeBSD-zlib-dev \
         FreeBSD-libexecinfo-dev \
         FreeBSD-ncurses-dev \
+        FreeBSD-pam-dev \
         FreeBSD-clang \
         FreeBSD-toolchain \
         cmocka \
@@ -80,7 +81,7 @@ LABEL org.opencontainers.image.title="Samba" \
 # Install runtime deps then install the MIT-KRB pkg built from ports
 COPY --from=builder /samba-mit.pkg /samba-mit.pkg
 RUN pkg update && \
-    pkg install -y /samba-mit.pkg && \
+    pkg install -y /samba-mit.pkg FreeBSD-pam-lib && \
     rm /samba-mit.pkg && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*

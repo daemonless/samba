@@ -17,10 +17,6 @@ build:
       args:
         BASE_VERSION: "15.1-latest"
         PKG_NAME: "samba422"
-    - tag: 422-pkg-krb
-      containerfile: Containerfile.krb
-      pkg_name: samba422
-      tag_desc: "**MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal."
     - tag: 423-pkg
       containerfile: Containerfile.pkg
       pkg_name: samba423
@@ -39,6 +35,7 @@ build:
       containerfile: Containerfile.krb
       pkg_name: samba423
       args:
+        BASE_VERSION: "15.1-latest"
         SAMBA_VERSION: "423"
       tag_desc: "**MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal."
 
