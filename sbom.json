@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-08T09:46:41Z",
+  "generated": "2026-07-12T20:44:41Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
-      "app_version": "4.22.7_1",
+      "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-07-08T09:33:55Z",
+      "generated": "2026-07-12T20:29:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,7 +147,7 @@
           },
           {
             "name": "cyrus-sasl",
-            "version": "2.1.28_5"
+            "version": "2.1.28_6"
           },
           {
             "name": "dbus",
@@ -163,7 +163,7 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "gamin",
@@ -175,11 +175,11 @@
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -203,7 +203,7 @@
           },
           {
             "name": "jansson",
-            "version": "2.15.0"
+            "version": "2.15.1_1"
           },
           {
             "name": "jq",
@@ -219,7 +219,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -231,7 +231,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.5,1"
+            "version": "3.8.7,1"
           },
           {
             "name": "libdaemon",
@@ -243,15 +243,15 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.6.0"
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0_1"
+            "version": "1.12.2"
           },
           {
             "name": "libgpg-error",
-            "version": "1.59"
+            "version": "1.61"
           },
           {
             "name": "libiconv",
@@ -291,11 +291,11 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2"
+            "version": "2.15.3"
           },
           {
-            "name": "lmdb",
-            "version": "0.9.35,1"
+            "name": "lmdb0",
+            "version": "0.9.35"
           },
           {
             "name": "mpdecimal",
@@ -323,135 +323,127 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.5"
           },
           {
             "name": "popt",
             "version": "1.19_1"
           },
           {
-            "name": "py311-aioquic",
+            "name": "py312-aioquic",
             "version": "1.3.0_1"
           },
           {
-            "name": "py311-anyio",
-            "version": "4.12.1"
+            "name": "py312-anyio",
+            "version": "4.14.1"
           },
           {
-            "name": "py311-async_generator",
+            "name": "py312-async_generator",
             "version": "1.10_1"
           },
           {
-            "name": "py311-attrs",
-            "version": "25.4.0"
+            "name": "py312-attrs",
+            "version": "26.1.0"
           },
           {
-            "name": "py311-certifi",
-            "version": "2026.1.4"
+            "name": "py312-certifi",
+            "version": "2026.6.17"
           },
           {
-            "name": "py311-cffi",
+            "name": "py312-cffi",
             "version": "2.0.0"
           },
           {
-            "name": "py311-cryptography",
-            "version": "46.0.7,1"
+            "name": "py312-cryptography",
+            "version": "48.0.1,1"
           },
           {
-            "name": "py311-dnspython",
+            "name": "py312-dnspython",
             "version": "2.8.0_1,1"
           },
           {
-            "name": "py311-h11",
+            "name": "py312-h11",
             "version": "0.16.0"
           },
           {
-            "name": "py311-h2",
-            "version": "4.1.0_1"
+            "name": "py312-h2",
+            "version": "4.3.0"
           },
           {
-            "name": "py311-hpack",
-            "version": "4.0.0_1"
+            "name": "py312-hpack",
+            "version": "4.2.0"
           },
           {
-            "name": "py311-httpcore",
+            "name": "py312-httpcore",
             "version": "1.0.9"
           },
           {
-            "name": "py311-httpx",
-            "version": "0.28.1_1"
+            "name": "py312-httpx",
+            "version": "0.28.1_2"
           },
           {
-            "name": "py311-hyperframe",
-            "version": "6.0.0_1"
+            "name": "py312-hyperframe",
+            "version": "6.1.0"
           },
           {
-            "name": "py311-idna",
-            "version": "3.11"
+            "name": "py312-idna",
+            "version": "3.18"
           },
           {
-            "name": "py311-markdown",
+            "name": "py312-markdown",
             "version": "3.10.2"
           },
           {
-            "name": "py311-outcome",
+            "name": "py312-outcome",
             "version": "1.3.0_2"
           },
           {
-            "name": "py311-packaging",
-            "version": "26.0"
+            "name": "py312-packaging",
+            "version": "26.2"
           },
           {
-            "name": "py311-pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "py311-pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
-            "name": "py311-pycparser",
+            "name": "py312-pycparser",
             "version": "2.23"
           },
           {
-            "name": "py311-pylsqpack",
-            "version": "0.3.23"
+            "name": "py312-pylsqpack",
+            "version": "0.3.24"
           },
           {
-            "name": "py311-pyopenssl",
-            "version": "26.0.0,1"
+            "name": "py312-pyopenssl",
+            "version": "26.2.0,1"
           },
           {
-            "name": "py311-service-identity",
-            "version": "24.2.0"
+            "name": "py312-service-identity",
+            "version": "26.1.0"
           },
           {
-            "name": "py311-sniffio",
+            "name": "py312-sniffio",
             "version": "1.3.1"
           },
           {
-            "name": "py311-socksio",
+            "name": "py312-socksio",
             "version": "1.0.0_1"
           },
           {
-            "name": "py311-sortedcontainers",
+            "name": "py312-sortedcontainers",
             "version": "2.4.0_1"
           },
           {
-            "name": "py311-trio",
+            "name": "py312-trio",
             "version": "0.33.0"
           },
           {
-            "name": "py311-truststore",
+            "name": "py312-truststore",
             "version": "0.10.4"
           },
           {
-            "name": "py311-typing-extensions",
+            "name": "py312-typing-extensions",
             "version": "4.15.0"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_4"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -463,7 +455,7 @@
           },
           {
             "name": "samba422",
-            "version": "4.22.7_1"
+            "version": "4.22.10_1"
           },
           {
             "name": "skalibs",
@@ -483,11 +475,11 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [],
@@ -501,7 +493,7 @@
           },
           {
             "name": "anyio",
-            "version": "4.12.1"
+            "version": "4.14.1"
           },
           {
             "name": "async-generator",
@@ -509,11 +501,11 @@
           },
           {
             "name": "attrs",
-            "version": "25.4.0"
+            "version": "26.1.0"
           },
           {
             "name": "certifi",
-            "version": "2026.1.4"
+            "version": "2026.6.17"
           },
           {
             "name": "cffi",
@@ -521,7 +513,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.7"
+            "version": "48.0.1"
           },
           {
             "name": "dnspython",
@@ -537,11 +529,11 @@
           },
           {
             "name": "h2",
-            "version": "4.1.0"
+            "version": "4.3.0"
           },
           {
             "name": "hpack",
-            "version": "4.0.0"
+            "version": "4.2.0"
           },
           {
             "name": "httpcore",
@@ -553,11 +545,11 @@
           },
           {
             "name": "hyperframe",
-            "version": "6.0.0"
+            "version": "6.1.0"
           },
           {
             "name": "idna",
-            "version": "3.11"
+            "version": "3.18"
           },
           {
             "name": "markdown",
@@ -569,15 +561,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
-          },
-          {
-            "name": "pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "pyasn1-modules",
-            "version": "0.4.1"
+            "version": "26.2"
           },
           {
             "name": "pycparser",
@@ -585,15 +569,15 @@
           },
           {
             "name": "pylsqpack",
-            "version": "0.3.23"
+            "version": "0.3.24"
           },
           {
             "name": "pyopenssl",
-            "version": "26.0.0"
+            "version": "26.2.0"
           },
           {
             "name": "service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "sniffio",
@@ -626,21 +610,21 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 120,
+        "freebsd": 118,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 31,
+        "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 151
+        "total": 147
       }
     },
     "422-pkg-latest": {
       "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-07-08T09:34:22Z",
+      "generated": "2026-07-12T20:41:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -970,7 +954,7 @@
           },
           {
             "name": "py312-anyio",
-            "version": "4.13.0"
+            "version": "4.14.1"
           },
           {
             "name": "py312-async_generator",
@@ -982,7 +966,7 @@
           },
           {
             "name": "py312-certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "py312-cffi",
@@ -990,7 +974,7 @@
           },
           {
             "name": "py312-cryptography",
-            "version": "48.0.0_1,1"
+            "version": "48.0.1,1"
           },
           {
             "name": "py312-dnspython",
@@ -1006,7 +990,7 @@
           },
           {
             "name": "py312-hpack",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "py312-httpcore",
@@ -1037,14 +1021,6 @@
             "version": "26.2"
           },
           {
-            "name": "py312-pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "py312-pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
             "name": "py312-pycparser",
             "version": "2.23"
           },
@@ -1058,7 +1034,7 @@
           },
           {
             "name": "py312-service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "py312-sniffio",
@@ -1136,7 +1112,7 @@
           },
           {
             "name": "anyio",
-            "version": "4.13.0"
+            "version": "4.14.1"
           },
           {
             "name": "async-generator",
@@ -1148,7 +1124,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "cffi",
@@ -1156,7 +1132,7 @@
           },
           {
             "name": "cryptography",
-            "version": "48.0.0"
+            "version": "48.0.1"
           },
           {
             "name": "dnspython",
@@ -1176,7 +1152,7 @@
           },
           {
             "name": "hpack",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "httpcore",
@@ -1207,14 +1183,6 @@
             "version": "26.2"
           },
           {
-            "name": "pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
             "name": "pycparser",
             "version": "2.23"
           },
@@ -1228,7 +1196,7 @@
           },
           {
             "name": "service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "sniffio",
@@ -1261,21 +1229,21 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 120,
+        "freebsd": 118,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 31,
+        "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 151
+        "total": 147
       }
     },
     "423-pkg": {
-      "app_version": "4.23.6_1",
+      "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-07-08T09:34:40Z",
+      "generated": "2026-07-12T20:41:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1417,7 +1385,7 @@
           },
           {
             "name": "cyrus-sasl",
-            "version": "2.1.28_5"
+            "version": "2.1.28_6"
           },
           {
             "name": "dbus",
@@ -1433,7 +1401,7 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "gamin",
@@ -1445,11 +1413,11 @@
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "glib",
-            "version": "2.84.4,2"
+            "version": "2.86.4,2"
           },
           {
             "name": "gmp",
@@ -1473,7 +1441,7 @@
           },
           {
             "name": "jansson",
-            "version": "2.15.0"
+            "version": "2.15.1_1"
           },
           {
             "name": "jq",
@@ -1489,7 +1457,7 @@
           },
           {
             "name": "libX11",
-            "version": "1.8.13,1"
+            "version": "1.8.13_1,1"
           },
           {
             "name": "libXau",
@@ -1501,7 +1469,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.5,1"
+            "version": "3.8.7,1"
           },
           {
             "name": "libdaemon",
@@ -1513,15 +1481,15 @@
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.6.0"
           },
           {
             "name": "libgcrypt",
-            "version": "1.12.0_1"
+            "version": "1.12.2"
           },
           {
             "name": "libgpg-error",
-            "version": "1.59"
+            "version": "1.61"
           },
           {
             "name": "libiconv",
@@ -1561,11 +1529,11 @@
           },
           {
             "name": "libxml2",
-            "version": "2.15.2"
+            "version": "2.15.3"
           },
           {
-            "name": "lmdb",
-            "version": "0.9.35,1"
+            "name": "lmdb0",
+            "version": "0.9.35"
           },
           {
             "name": "mpdecimal",
@@ -1593,135 +1561,127 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.5"
           },
           {
             "name": "popt",
             "version": "1.19_1"
           },
           {
-            "name": "py311-aioquic",
+            "name": "py312-aioquic",
             "version": "1.3.0_1"
           },
           {
-            "name": "py311-anyio",
-            "version": "4.12.1"
+            "name": "py312-anyio",
+            "version": "4.14.1"
           },
           {
-            "name": "py311-async_generator",
+            "name": "py312-async_generator",
             "version": "1.10_1"
           },
           {
-            "name": "py311-attrs",
-            "version": "25.4.0"
+            "name": "py312-attrs",
+            "version": "26.1.0"
           },
           {
-            "name": "py311-certifi",
-            "version": "2026.1.4"
+            "name": "py312-certifi",
+            "version": "2026.6.17"
           },
           {
-            "name": "py311-cffi",
+            "name": "py312-cffi",
             "version": "2.0.0"
           },
           {
-            "name": "py311-cryptography",
-            "version": "46.0.7,1"
+            "name": "py312-cryptography",
+            "version": "48.0.1,1"
           },
           {
-            "name": "py311-dnspython",
+            "name": "py312-dnspython",
             "version": "2.8.0_1,1"
           },
           {
-            "name": "py311-h11",
+            "name": "py312-h11",
             "version": "0.16.0"
           },
           {
-            "name": "py311-h2",
-            "version": "4.1.0_1"
+            "name": "py312-h2",
+            "version": "4.3.0"
           },
           {
-            "name": "py311-hpack",
-            "version": "4.0.0_1"
+            "name": "py312-hpack",
+            "version": "4.2.0"
           },
           {
-            "name": "py311-httpcore",
+            "name": "py312-httpcore",
             "version": "1.0.9"
           },
           {
-            "name": "py311-httpx",
-            "version": "0.28.1_1"
+            "name": "py312-httpx",
+            "version": "0.28.1_2"
           },
           {
-            "name": "py311-hyperframe",
-            "version": "6.0.0_1"
+            "name": "py312-hyperframe",
+            "version": "6.1.0"
           },
           {
-            "name": "py311-idna",
-            "version": "3.11"
+            "name": "py312-idna",
+            "version": "3.18"
           },
           {
-            "name": "py311-markdown",
+            "name": "py312-markdown",
             "version": "3.10.2"
           },
           {
-            "name": "py311-outcome",
+            "name": "py312-outcome",
             "version": "1.3.0_2"
           },
           {
-            "name": "py311-packaging",
-            "version": "26.0"
+            "name": "py312-packaging",
+            "version": "26.2"
           },
           {
-            "name": "py311-pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "py311-pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
-            "name": "py311-pycparser",
+            "name": "py312-pycparser",
             "version": "2.23"
           },
           {
-            "name": "py311-pylsqpack",
-            "version": "0.3.23"
+            "name": "py312-pylsqpack",
+            "version": "0.3.24"
           },
           {
-            "name": "py311-pyopenssl",
-            "version": "26.0.0,1"
+            "name": "py312-pyopenssl",
+            "version": "26.2.0,1"
           },
           {
-            "name": "py311-service-identity",
-            "version": "24.2.0"
+            "name": "py312-service-identity",
+            "version": "26.1.0"
           },
           {
-            "name": "py311-sniffio",
+            "name": "py312-sniffio",
             "version": "1.3.1"
           },
           {
-            "name": "py311-socksio",
+            "name": "py312-socksio",
             "version": "1.0.0_1"
           },
           {
-            "name": "py311-sortedcontainers",
+            "name": "py312-sortedcontainers",
             "version": "2.4.0_1"
           },
           {
-            "name": "py311-trio",
+            "name": "py312-trio",
             "version": "0.33.0"
           },
           {
-            "name": "py311-truststore",
+            "name": "py312-truststore",
             "version": "0.10.4"
           },
           {
-            "name": "py311-typing-extensions",
+            "name": "py312-typing-extensions",
             "version": "4.15.0"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_4"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -1733,7 +1693,7 @@
           },
           {
             "name": "samba423",
-            "version": "4.23.6_1"
+            "version": "4.23.8_1"
           },
           {
             "name": "skalibs",
@@ -1753,11 +1713,11 @@
           },
           {
             "name": "xorgproto",
-            "version": "2024.1"
+            "version": "2025.1"
           },
           {
             "name": "zstd",
-            "version": "1.5.7_1"
+            "version": "1.5.7_2"
           }
         ],
         "go": [],
@@ -1771,7 +1731,7 @@
           },
           {
             "name": "anyio",
-            "version": "4.12.1"
+            "version": "4.14.1"
           },
           {
             "name": "async-generator",
@@ -1779,11 +1739,11 @@
           },
           {
             "name": "attrs",
-            "version": "25.4.0"
+            "version": "26.1.0"
           },
           {
             "name": "certifi",
-            "version": "2026.1.4"
+            "version": "2026.6.17"
           },
           {
             "name": "cffi",
@@ -1791,7 +1751,7 @@
           },
           {
             "name": "cryptography",
-            "version": "46.0.7"
+            "version": "48.0.1"
           },
           {
             "name": "dnspython",
@@ -1807,11 +1767,11 @@
           },
           {
             "name": "h2",
-            "version": "4.1.0"
+            "version": "4.3.0"
           },
           {
             "name": "hpack",
-            "version": "4.0.0"
+            "version": "4.2.0"
           },
           {
             "name": "httpcore",
@@ -1823,11 +1783,11 @@
           },
           {
             "name": "hyperframe",
-            "version": "6.0.0"
+            "version": "6.1.0"
           },
           {
             "name": "idna",
-            "version": "3.11"
+            "version": "3.18"
           },
           {
             "name": "markdown",
@@ -1839,15 +1799,7 @@
           },
           {
             "name": "packaging",
-            "version": "26.0"
-          },
-          {
-            "name": "pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "pyasn1-modules",
-            "version": "0.4.1"
+            "version": "26.2"
           },
           {
             "name": "pycparser",
@@ -1855,15 +1807,15 @@
           },
           {
             "name": "pylsqpack",
-            "version": "0.3.23"
+            "version": "0.3.24"
           },
           {
             "name": "pyopenssl",
-            "version": "26.0.0"
+            "version": "26.2.0"
           },
           {
             "name": "service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "sniffio",
@@ -1896,21 +1848,21 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 120,
+        "freebsd": 118,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 31,
+        "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 151
+        "total": 147
       }
     },
     "423-pkg-krb": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-07-08T09:45:26Z",
+      "generated": "2026-07-12T20:37:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2248,7 +2200,7 @@
           },
           {
             "name": "py312-anyio",
-            "version": "4.13.0"
+            "version": "4.14.1"
           },
           {
             "name": "py312-async_generator",
@@ -2260,7 +2212,7 @@
           },
           {
             "name": "py312-certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "py312-cffi",
@@ -2268,7 +2220,7 @@
           },
           {
             "name": "py312-cryptography",
-            "version": "48.0.0_1,1"
+            "version": "48.0.1,1"
           },
           {
             "name": "py312-dnspython",
@@ -2284,7 +2236,7 @@
           },
           {
             "name": "py312-hpack",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "py312-httpcore",
@@ -2315,14 +2267,6 @@
             "version": "26.2"
           },
           {
-            "name": "py312-pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "py312-pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
             "name": "py312-pycparser",
             "version": "2.23"
           },
@@ -2336,7 +2280,7 @@
           },
           {
             "name": "py312-service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "py312-sniffio",
@@ -2414,7 +2358,7 @@
           },
           {
             "name": "anyio",
-            "version": "4.13.0"
+            "version": "4.14.1"
           },
           {
             "name": "async-generator",
@@ -2426,7 +2370,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "cffi",
@@ -2434,7 +2378,7 @@
           },
           {
             "name": "cryptography",
-            "version": "48.0.0"
+            "version": "48.0.1"
           },
           {
             "name": "dnspython",
@@ -2454,7 +2398,7 @@
           },
           {
             "name": "hpack",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "httpcore",
@@ -2485,14 +2429,6 @@
             "version": "26.2"
           },
           {
-            "name": "pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
             "name": "pycparser",
             "version": "2.23"
           },
@@ -2506,7 +2442,7 @@
           },
           {
             "name": "service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "sniffio",
@@ -2539,21 +2475,21 @@
       "source": "krb",
       "summary": {
         "dotnet": 0,
-        "freebsd": 122,
+        "freebsd": 120,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 31,
+        "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 153
+        "total": 149
       }
     },
     "423-pkg-latest": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-07-08T09:36:18Z",
+      "generated": "2026-07-12T20:43:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2883,7 +2819,7 @@
           },
           {
             "name": "py312-anyio",
-            "version": "4.13.0"
+            "version": "4.14.1"
           },
           {
             "name": "py312-async_generator",
@@ -2895,7 +2831,7 @@
           },
           {
             "name": "py312-certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "py312-cffi",
@@ -2903,7 +2839,7 @@
           },
           {
             "name": "py312-cryptography",
-            "version": "48.0.0_1,1"
+            "version": "48.0.1,1"
           },
           {
             "name": "py312-dnspython",
@@ -2919,7 +2855,7 @@
           },
           {
             "name": "py312-hpack",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "py312-httpcore",
@@ -2950,14 +2886,6 @@
             "version": "26.2"
           },
           {
-            "name": "py312-pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "py312-pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
             "name": "py312-pycparser",
             "version": "2.23"
           },
@@ -2971,7 +2899,7 @@
           },
           {
             "name": "py312-service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "py312-sniffio",
@@ -3049,7 +2977,7 @@
           },
           {
             "name": "anyio",
-            "version": "4.13.0"
+            "version": "4.14.1"
           },
           {
             "name": "async-generator",
@@ -3061,7 +2989,7 @@
           },
           {
             "name": "certifi",
-            "version": "2026.5.20"
+            "version": "2026.6.17"
           },
           {
             "name": "cffi",
@@ -3069,7 +2997,7 @@
           },
           {
             "name": "cryptography",
-            "version": "48.0.0"
+            "version": "48.0.1"
           },
           {
             "name": "dnspython",
@@ -3089,7 +3017,7 @@
           },
           {
             "name": "hpack",
-            "version": "4.1.0"
+            "version": "4.2.0"
           },
           {
             "name": "httpcore",
@@ -3120,14 +3048,6 @@
             "version": "26.2"
           },
           {
-            "name": "pyasn1",
-            "version": "0.6.0"
-          },
-          {
-            "name": "pyasn1-modules",
-            "version": "0.4.1"
-          },
-          {
             "name": "pycparser",
             "version": "2.23"
           },
@@ -3141,7 +3061,7 @@
           },
           {
             "name": "service-identity",
-            "version": "24.2.0"
+            "version": "26.1.0"
           },
           {
             "name": "sniffio",
@@ -3174,15 +3094,15 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 120,
+        "freebsd": 118,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 31,
+        "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 151
+        "total": 147
       }
     }
   }
