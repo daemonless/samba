@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-12T20:44:41Z",
+  "generated": "2026-07-27T22:14:23Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-07-12T20:29:02Z",
+      "generated": "2026-07-27T22:01:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -67,6 +67,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -143,7 +147,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cyrus-sasl",
@@ -204,625 +208,6 @@
           {
             "name": "jansson",
             "version": "2.15.1_1"
-          },
-          {
-            "name": "jq",
-            "version": "1.8.1"
-          },
-          {
-            "name": "libICE",
-            "version": "1.1.2,1"
-          },
-          {
-            "name": "libSM",
-            "version": "1.2.6,1"
-          },
-          {
-            "name": "libX11",
-            "version": "1.8.13_1,1"
-          },
-          {
-            "name": "libXau",
-            "version": "1.0.12"
-          },
-          {
-            "name": "libXdmcp",
-            "version": "1.1.5"
-          },
-          {
-            "name": "libarchive",
-            "version": "3.8.7,1"
-          },
-          {
-            "name": "libdaemon",
-            "version": "0.14_1"
-          },
-          {
-            "name": "libevent",
-            "version": "2.1.13"
-          },
-          {
-            "name": "libffi",
-            "version": "3.6.0"
-          },
-          {
-            "name": "libgcrypt",
-            "version": "1.12.2"
-          },
-          {
-            "name": "libgpg-error",
-            "version": "1.61"
-          },
-          {
-            "name": "libiconv",
-            "version": "1.18_1"
-          },
-          {
-            "name": "libidn2",
-            "version": "2.3.8"
-          },
-          {
-            "name": "libinotify",
-            "version": "20240724_3"
-          },
-          {
-            "name": "liblz4",
-            "version": "1.10.0_2,1"
-          },
-          {
-            "name": "libsunacl",
-            "version": "1.0.1_1"
-          },
-          {
-            "name": "libtasn1",
-            "version": "4.21.0"
-          },
-          {
-            "name": "libunistring",
-            "version": "1.4.2"
-          },
-          {
-            "name": "libunwind",
-            "version": "20250904"
-          },
-          {
-            "name": "libxcb",
-            "version": "1.17.0"
-          },
-          {
-            "name": "libxml2",
-            "version": "2.15.3"
-          },
-          {
-            "name": "lmdb0",
-            "version": "0.9.35"
-          },
-          {
-            "name": "mpdecimal",
-            "version": "4.0.1"
-          },
-          {
-            "name": "nettle",
-            "version": "3.10.2"
-          },
-          {
-            "name": "oniguruma",
-            "version": "6.9.10"
-          },
-          {
-            "name": "openldap26-client",
-            "version": "2.6.13"
-          },
-          {
-            "name": "p11-kit",
-            "version": "0.26.2"
-          },
-          {
-            "name": "pcre2",
-            "version": "10.47_1"
-          },
-          {
-            "name": "pkg",
-            "version": "2.7.5"
-          },
-          {
-            "name": "popt",
-            "version": "1.19_1"
-          },
-          {
-            "name": "py312-aioquic",
-            "version": "1.3.0_1"
-          },
-          {
-            "name": "py312-anyio",
-            "version": "4.14.1"
-          },
-          {
-            "name": "py312-async_generator",
-            "version": "1.10_1"
-          },
-          {
-            "name": "py312-attrs",
-            "version": "26.1.0"
-          },
-          {
-            "name": "py312-certifi",
-            "version": "2026.6.17"
-          },
-          {
-            "name": "py312-cffi",
-            "version": "2.0.0"
-          },
-          {
-            "name": "py312-cryptography",
-            "version": "48.0.1,1"
-          },
-          {
-            "name": "py312-dnspython",
-            "version": "2.8.0_1,1"
-          },
-          {
-            "name": "py312-h11",
-            "version": "0.16.0"
-          },
-          {
-            "name": "py312-h2",
-            "version": "4.3.0"
-          },
-          {
-            "name": "py312-hpack",
-            "version": "4.2.0"
-          },
-          {
-            "name": "py312-httpcore",
-            "version": "1.0.9"
-          },
-          {
-            "name": "py312-httpx",
-            "version": "0.28.1_2"
-          },
-          {
-            "name": "py312-hyperframe",
-            "version": "6.1.0"
-          },
-          {
-            "name": "py312-idna",
-            "version": "3.18"
-          },
-          {
-            "name": "py312-markdown",
-            "version": "3.10.2"
-          },
-          {
-            "name": "py312-outcome",
-            "version": "1.3.0_2"
-          },
-          {
-            "name": "py312-packaging",
-            "version": "26.2"
-          },
-          {
-            "name": "py312-pycparser",
-            "version": "2.23"
-          },
-          {
-            "name": "py312-pylsqpack",
-            "version": "0.3.24"
-          },
-          {
-            "name": "py312-pyopenssl",
-            "version": "26.2.0,1"
-          },
-          {
-            "name": "py312-service-identity",
-            "version": "26.1.0"
-          },
-          {
-            "name": "py312-sniffio",
-            "version": "1.3.1"
-          },
-          {
-            "name": "py312-socksio",
-            "version": "1.0.0_1"
-          },
-          {
-            "name": "py312-sortedcontainers",
-            "version": "2.4.0_1"
-          },
-          {
-            "name": "py312-trio",
-            "version": "0.33.0"
-          },
-          {
-            "name": "py312-truststore",
-            "version": "0.10.4"
-          },
-          {
-            "name": "py312-typing-extensions",
-            "version": "4.15.0"
-          },
-          {
-            "name": "python312",
-            "version": "3.12.13_3"
-          },
-          {
-            "name": "readline",
-            "version": "8.3.3"
-          },
-          {
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "name": "samba422",
-            "version": "4.22.10_1"
-          },
-          {
-            "name": "skalibs",
-            "version": "2.14.5.1"
-          },
-          {
-            "name": "talloc243",
-            "version": "2.4.3"
-          },
-          {
-            "name": "tdb1413",
-            "version": "1.4.13_1,1"
-          },
-          {
-            "name": "tevent017",
-            "version": "0.17.1"
-          },
-          {
-            "name": "xorgproto",
-            "version": "2025.1"
-          },
-          {
-            "name": "zstd",
-            "version": "1.5.7_2"
-          }
-        ],
-        "go": [],
-        "java": [],
-        "node": [],
-        "php": [],
-        "python": [
-          {
-            "name": "aioquic",
-            "version": "1.3.0"
-          },
-          {
-            "name": "anyio",
-            "version": "4.14.1"
-          },
-          {
-            "name": "async-generator",
-            "version": "1.10"
-          },
-          {
-            "name": "attrs",
-            "version": "26.1.0"
-          },
-          {
-            "name": "certifi",
-            "version": "2026.6.17"
-          },
-          {
-            "name": "cffi",
-            "version": "2.0.0"
-          },
-          {
-            "name": "cryptography",
-            "version": "48.0.1"
-          },
-          {
-            "name": "dnspython",
-            "version": "2.8.0"
-          },
-          {
-            "name": "example",
-            "version": "21.12"
-          },
-          {
-            "name": "h11",
-            "version": "0.16.0"
-          },
-          {
-            "name": "h2",
-            "version": "4.3.0"
-          },
-          {
-            "name": "hpack",
-            "version": "4.2.0"
-          },
-          {
-            "name": "httpcore",
-            "version": "1.0.9"
-          },
-          {
-            "name": "httpx",
-            "version": "0.28.1"
-          },
-          {
-            "name": "hyperframe",
-            "version": "6.1.0"
-          },
-          {
-            "name": "idna",
-            "version": "3.18"
-          },
-          {
-            "name": "markdown",
-            "version": "3.10.2"
-          },
-          {
-            "name": "outcome",
-            "version": "1.3.0.post0"
-          },
-          {
-            "name": "packaging",
-            "version": "26.2"
-          },
-          {
-            "name": "pycparser",
-            "version": "2.23"
-          },
-          {
-            "name": "pylsqpack",
-            "version": "0.3.24"
-          },
-          {
-            "name": "pyopenssl",
-            "version": "26.2.0"
-          },
-          {
-            "name": "service-identity",
-            "version": "26.1.0"
-          },
-          {
-            "name": "sniffio",
-            "version": "1.3.1"
-          },
-          {
-            "name": "socksio",
-            "version": "1.0.0"
-          },
-          {
-            "name": "sortedcontainers",
-            "version": "2.4.0"
-          },
-          {
-            "name": "trio",
-            "version": "0.33.0"
-          },
-          {
-            "name": "truststore",
-            "version": "0.10.4"
-          },
-          {
-            "name": "typing_extensions",
-            "version": "4.15.0"
-          }
-        ],
-        "ruby": [],
-        "rust": []
-      },
-      "source": "pkg",
-      "summary": {
-        "dotnet": 0,
-        "freebsd": 118,
-        "go": 0,
-        "java": 0,
-        "node": 0,
-        "php": 0,
-        "python": 29,
-        "ruby": 0,
-        "rust": 0,
-        "total": 147
-      }
-    },
-    "422-pkg-latest": {
-      "app_version": "4.22.10_1",
-      "arch": "amd64",
-      "generated": "2026-07-12T20:41:19Z",
-      "packages": {
-        "dotnet": [],
-        "freebsd": [
-          {
-            "name": "FreeBSD-audit-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-blocklist",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-bzip2-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-certctl",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-clibs",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-ctf-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-fetch",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-kerberos-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libarchive",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libbsdstat",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libcasper",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libexecinfo",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libldns",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libmagic",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libucl",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-mtree",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-ncurses-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-openssl",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-pam-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-runtime",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-tcpd",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-ufs-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-utilities",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-xz-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-zlib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-zoneinfo",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-zstd-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "avahi-app",
-            "version": "0.8_6"
-          },
-          {
-            "name": "brotli",
-            "version": "1.2.0,1"
-          },
-          {
-            "name": "ca_root_nss",
-            "version": "3.124"
-          },
-          {
-            "name": "cyrus-sasl",
-            "version": "2.1.28_6"
-          },
-          {
-            "name": "dbus",
-            "version": "1.16.2_4,1"
-          },
-          {
-            "name": "dbus-glib",
-            "version": "0.114"
-          },
-          {
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "name": "expat",
-            "version": "2.8.2"
-          },
-          {
-            "name": "gamin",
-            "version": "0.1.10_10"
-          },
-          {
-            "name": "gdbm",
-            "version": "1.26"
-          },
-          {
-            "name": "gettext-runtime",
-            "version": "1.0_1"
-          },
-          {
-            "name": "glib",
-            "version": "2.86.4,2"
-          },
-          {
-            "name": "gmp",
-            "version": "6.3.0"
-          },
-          {
-            "name": "gnome_subr",
-            "version": "1.0"
-          },
-          {
-            "name": "gnutls",
-            "version": "3.8.13"
-          },
-          {
-            "name": "icu",
-            "version": "76.1,1"
-          },
-          {
-            "name": "indexinfo",
-            "version": "0.3.1_1"
-          },
-          {
-            "name": "jansson",
-            "version": "2.15.1"
           },
           {
             "name": "jq",
@@ -1229,7 +614,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 118,
+        "freebsd": 119,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -1237,13 +622,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 147
+        "total": 148
       }
     },
-    "423-pkg": {
-      "app_version": "4.23.8_1",
+    "422-pkg-latest": {
+      "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-07-12T20:41:48Z",
+      "generated": "2026-07-27T22:02:52Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1305,6 +690,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -1381,7 +770,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cyrus-sasl",
@@ -1445,7 +834,630 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
+          },
+          {
+            "name": "libICE",
+            "version": "1.1.2,1"
+          },
+          {
+            "name": "libSM",
+            "version": "1.2.6,1"
+          },
+          {
+            "name": "libX11",
+            "version": "1.8.13_1,1"
+          },
+          {
+            "name": "libXau",
+            "version": "1.0.12"
+          },
+          {
+            "name": "libXdmcp",
+            "version": "1.1.5"
+          },
+          {
+            "name": "libarchive",
+            "version": "3.8.8,1"
+          },
+          {
+            "name": "libdaemon",
+            "version": "0.14_1"
+          },
+          {
+            "name": "libevent",
+            "version": "2.1.13"
+          },
+          {
+            "name": "libffi",
+            "version": "3.7.1"
+          },
+          {
+            "name": "libgcrypt",
+            "version": "1.12.2"
+          },
+          {
+            "name": "libgpg-error",
+            "version": "1.61"
+          },
+          {
+            "name": "libiconv",
+            "version": "1.18_1"
+          },
+          {
+            "name": "libidn2",
+            "version": "2.3.8"
+          },
+          {
+            "name": "libinotify",
+            "version": "20240724_3"
+          },
+          {
+            "name": "liblz4",
+            "version": "1.10.0_2,1"
+          },
+          {
+            "name": "libsunacl",
+            "version": "1.0.1_1"
+          },
+          {
+            "name": "libtasn1",
+            "version": "4.21.0"
+          },
+          {
+            "name": "libunistring",
+            "version": "1.4.2"
+          },
+          {
+            "name": "libunwind",
+            "version": "20250904"
+          },
+          {
+            "name": "libxcb",
+            "version": "1.17.0"
+          },
+          {
+            "name": "libxml2",
+            "version": "2.15.3"
+          },
+          {
+            "name": "lmdb0",
+            "version": "0.9.35"
+          },
+          {
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "name": "nettle",
+            "version": "3.10.2"
+          },
+          {
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "name": "openldap26-client",
+            "version": "2.6.13"
+          },
+          {
+            "name": "p11-kit",
+            "version": "0.26.4"
+          },
+          {
+            "name": "pcre2",
+            "version": "10.47_1"
+          },
+          {
+            "name": "pkg",
+            "version": "2.8.1"
+          },
+          {
+            "name": "popt",
+            "version": "1.19_1"
+          },
+          {
+            "name": "py312-aioquic",
+            "version": "1.3.0_1"
+          },
+          {
+            "name": "py312-anyio",
+            "version": "4.14.1"
+          },
+          {
+            "name": "py312-async_generator",
+            "version": "1.10_1"
+          },
+          {
+            "name": "py312-attrs",
+            "version": "26.1.0"
+          },
+          {
+            "name": "py312-certifi",
+            "version": "2026.6.17"
+          },
+          {
+            "name": "py312-cffi",
+            "version": "2.1.0"
+          },
+          {
+            "name": "py312-cryptography",
+            "version": "48.0.1_1,1"
+          },
+          {
+            "name": "py312-dnspython",
+            "version": "2.8.0_1,1"
+          },
+          {
+            "name": "py312-h11",
+            "version": "0.16.0"
+          },
+          {
+            "name": "py312-h2",
+            "version": "4.3.0"
+          },
+          {
+            "name": "py312-hpack",
+            "version": "4.2.0"
+          },
+          {
+            "name": "py312-httpcore",
+            "version": "1.0.9"
+          },
+          {
+            "name": "py312-httpx",
+            "version": "0.28.1_2"
+          },
+          {
+            "name": "py312-hyperframe",
+            "version": "6.1.0"
+          },
+          {
+            "name": "py312-idna",
+            "version": "3.18"
+          },
+          {
+            "name": "py312-markdown",
+            "version": "3.10.2"
+          },
+          {
+            "name": "py312-outcome",
+            "version": "1.3.0_2"
+          },
+          {
+            "name": "py312-packaging",
+            "version": "26.2"
+          },
+          {
+            "name": "py312-pycparser",
+            "version": "2.23"
+          },
+          {
+            "name": "py312-pylsqpack",
+            "version": "0.3.24"
+          },
+          {
+            "name": "py312-pyopenssl",
+            "version": "26.2.0,1"
+          },
+          {
+            "name": "py312-service-identity",
+            "version": "26.1.0"
+          },
+          {
+            "name": "py312-sniffio",
+            "version": "1.3.1"
+          },
+          {
+            "name": "py312-socksio",
+            "version": "1.0.0_1"
+          },
+          {
+            "name": "py312-sortedcontainers",
+            "version": "2.4.0_1"
+          },
+          {
+            "name": "py312-trio",
+            "version": "0.33.0"
+          },
+          {
+            "name": "py312-truststore",
+            "version": "0.10.4"
+          },
+          {
+            "name": "py312-typing-extensions",
+            "version": "4.16.0"
+          },
+          {
+            "name": "python312",
+            "version": "3.12.13_3"
+          },
+          {
+            "name": "readline",
+            "version": "8.3.3"
+          },
+          {
+            "name": "s6",
+            "version": "2.14.0.1"
+          },
+          {
+            "name": "samba422",
+            "version": "4.22.10_1"
+          },
+          {
+            "name": "skalibs",
+            "version": "2.14.5.1"
+          },
+          {
+            "name": "talloc243",
+            "version": "2.4.3"
+          },
+          {
+            "name": "tdb1413",
+            "version": "1.4.13_1,1"
+          },
+          {
+            "name": "tevent017",
+            "version": "0.17.1"
+          },
+          {
+            "name": "xorgproto",
+            "version": "2025.1"
+          },
+          {
+            "name": "zstd",
+            "version": "1.5.7_2"
+          }
+        ],
+        "go": [],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [
+          {
+            "name": "aioquic",
+            "version": "1.3.0"
+          },
+          {
+            "name": "anyio",
+            "version": "4.14.1"
+          },
+          {
+            "name": "async-generator",
+            "version": "1.10"
+          },
+          {
+            "name": "attrs",
+            "version": "26.1.0"
+          },
+          {
+            "name": "certifi",
+            "version": "2026.6.17"
+          },
+          {
+            "name": "cffi",
+            "version": "2.1.0"
+          },
+          {
+            "name": "cryptography",
+            "version": "48.0.1"
+          },
+          {
+            "name": "dnspython",
+            "version": "2.8.0"
+          },
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "h11",
+            "version": "0.16.0"
+          },
+          {
+            "name": "h2",
+            "version": "4.3.0"
+          },
+          {
+            "name": "hpack",
+            "version": "4.2.0"
+          },
+          {
+            "name": "httpcore",
+            "version": "1.0.9"
+          },
+          {
+            "name": "httpx",
+            "version": "0.28.1"
+          },
+          {
+            "name": "hyperframe",
+            "version": "6.1.0"
+          },
+          {
+            "name": "idna",
+            "version": "3.18"
+          },
+          {
+            "name": "markdown",
+            "version": "3.10.2"
+          },
+          {
+            "name": "outcome",
+            "version": "1.3.0.post0"
+          },
+          {
+            "name": "packaging",
+            "version": "26.2"
+          },
+          {
+            "name": "pycparser",
+            "version": "2.23"
+          },
+          {
+            "name": "pylsqpack",
+            "version": "0.3.24"
+          },
+          {
+            "name": "pyopenssl",
+            "version": "26.2.0"
+          },
+          {
+            "name": "service-identity",
+            "version": "26.1.0"
+          },
+          {
+            "name": "sniffio",
+            "version": "1.3.1"
+          },
+          {
+            "name": "socksio",
+            "version": "1.0.0"
+          },
+          {
+            "name": "sortedcontainers",
+            "version": "2.4.0"
+          },
+          {
+            "name": "trio",
+            "version": "0.33.0"
+          },
+          {
+            "name": "truststore",
+            "version": "0.10.4"
+          },
+          {
+            "name": "typing_extensions",
+            "version": "4.16.0"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 119,
+        "go": 0,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 29,
+        "ruby": 0,
+        "rust": 0,
+        "total": 148
+      }
+    },
+    "423-pkg": {
+      "app_version": "4.23.8_1",
+      "arch": "amd64",
+      "generated": "2026-07-27T22:02:11Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-clibs",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libcasper",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-mtree",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-runtime",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-utilities",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "avahi-app",
+            "version": "0.8_6"
+          },
+          {
+            "name": "brotli",
+            "version": "1.2.0,1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.125"
+          },
+          {
+            "name": "cyrus-sasl",
+            "version": "2.1.28_6"
+          },
+          {
+            "name": "dbus",
+            "version": "1.16.2_4,1"
+          },
+          {
+            "name": "dbus-glib",
+            "version": "0.114"
+          },
+          {
+            "name": "execline",
+            "version": "2.9.8.1"
+          },
+          {
+            "name": "expat",
+            "version": "2.8.2"
+          },
+          {
+            "name": "gamin",
+            "version": "0.1.10_10"
+          },
+          {
+            "name": "gdbm",
+            "version": "1.26"
+          },
+          {
+            "name": "gettext-runtime",
+            "version": "1.0_1"
+          },
+          {
+            "name": "glib",
+            "version": "2.86.4,2"
+          },
+          {
+            "name": "gmp",
+            "version": "6.3.0"
+          },
+          {
+            "name": "gnome_subr",
+            "version": "1.0"
+          },
+          {
+            "name": "gnutls",
+            "version": "3.8.13"
+          },
+          {
+            "name": "icu",
+            "version": "76.1,1"
+          },
+          {
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "name": "jansson",
+            "version": "2.15.1_1"
+          },
+          {
+            "name": "jq",
+            "version": "1.8.2"
           },
           {
             "name": "libICE",
@@ -1848,7 +1860,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 118,
+        "freebsd": 119,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -1856,13 +1868,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 147
+        "total": 148
       }
     },
     "423-pkg-krb": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-07-12T20:37:38Z",
+      "generated": "2026-07-27T22:12:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1924,6 +1936,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -2000,7 +2016,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cyrus-sasl",
@@ -2060,7 +2076,7 @@
           },
           {
             "name": "jansson",
-            "version": "2.15.1"
+            "version": "2.15.1_1"
           },
           {
             "name": "jq",
@@ -2092,7 +2108,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.7,1"
+            "version": "3.8.8,1"
           },
           {
             "name": "libdaemon",
@@ -2104,7 +2120,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libgcrypt",
@@ -2180,7 +2196,7 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.26.2"
+            "version": "0.26.4"
           },
           {
             "name": "pcre2",
@@ -2188,7 +2204,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.1"
           },
           {
             "name": "popt",
@@ -2216,11 +2232,11 @@
           },
           {
             "name": "py312-cffi",
-            "version": "2.0.0"
+            "version": "2.1.0"
           },
           {
             "name": "py312-cryptography",
-            "version": "48.0.1,1"
+            "version": "48.0.1_1,1"
           },
           {
             "name": "py312-dnspython",
@@ -2304,7 +2320,7 @@
           },
           {
             "name": "py312-typing-extensions",
-            "version": "4.15.0"
+            "version": "4.16.0"
           },
           {
             "name": "python312",
@@ -2374,7 +2390,7 @@
           },
           {
             "name": "cffi",
-            "version": "2.0.0"
+            "version": "2.1.0"
           },
           {
             "name": "cryptography",
@@ -2466,7 +2482,7 @@
           },
           {
             "name": "typing_extensions",
-            "version": "4.15.0"
+            "version": "4.16.0"
           }
         ],
         "ruby": [],
@@ -2475,7 +2491,7 @@
       "source": "krb",
       "summary": {
         "dotnet": 0,
-        "freebsd": 120,
+        "freebsd": 121,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -2483,13 +2499,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 149
+        "total": 150
       }
     },
     "423-pkg-latest": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-07-12T20:43:27Z",
+      "generated": "2026-07-27T22:01:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2551,6 +2567,10 @@
           },
           {
             "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-locales",
             "version": "15.1"
           },
           {
@@ -2627,7 +2647,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "cyrus-sasl",
@@ -2687,7 +2707,7 @@
           },
           {
             "name": "jansson",
-            "version": "2.15.1"
+            "version": "2.15.1_1"
           },
           {
             "name": "jq",
@@ -2715,7 +2735,7 @@
           },
           {
             "name": "libarchive",
-            "version": "3.8.7,1"
+            "version": "3.8.8,1"
           },
           {
             "name": "libdaemon",
@@ -2727,7 +2747,7 @@
           },
           {
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.7.1"
           },
           {
             "name": "libgcrypt",
@@ -2799,7 +2819,7 @@
           },
           {
             "name": "p11-kit",
-            "version": "0.26.2"
+            "version": "0.26.4"
           },
           {
             "name": "pcre2",
@@ -2807,7 +2827,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.1"
           },
           {
             "name": "popt",
@@ -2835,11 +2855,11 @@
           },
           {
             "name": "py312-cffi",
-            "version": "2.0.0"
+            "version": "2.1.0"
           },
           {
             "name": "py312-cryptography",
-            "version": "48.0.1,1"
+            "version": "48.0.1_1,1"
           },
           {
             "name": "py312-dnspython",
@@ -2923,7 +2943,7 @@
           },
           {
             "name": "py312-typing-extensions",
-            "version": "4.15.0"
+            "version": "4.16.0"
           },
           {
             "name": "python312",
@@ -2993,7 +3013,7 @@
           },
           {
             "name": "cffi",
-            "version": "2.0.0"
+            "version": "2.1.0"
           },
           {
             "name": "cryptography",
@@ -3085,7 +3105,7 @@
           },
           {
             "name": "typing_extensions",
-            "version": "4.15.0"
+            "version": "4.16.0"
           }
         ],
         "ruby": [],
@@ -3094,7 +3114,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 118,
+        "freebsd": 119,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -3102,7 +3122,7 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 147
+        "total": 148
       }
     }
   }
