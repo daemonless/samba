@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-01T20:24:09Z",
+  "generated": "2026-08-09T15:25:10Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-08-01T20:01:39Z",
+      "generated": "2026-08-09T15:13:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1025,9 +1025,9 @@
       }
     },
     "422-pkg-latest": {
-      "app_version": "4.22.10_1",
+      "app_version": "4.22.11",
       "arch": "amd64",
-      "generated": "2026-08-01T20:11:42Z",
+      "generated": "2026-08-09T15:12:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1335,7 +1335,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -1581,7 +1581,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -1832,7 +1832,7 @@
               "GPLv3+"
             ],
             "name": "samba422",
-            "version": "4.22.10_1"
+            "version": "4.22.11"
           },
           {
             "licenses": [
@@ -2049,7 +2049,7 @@
     "423-pkg": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-08-01T19:52:34Z",
+      "generated": "2026-08-09T15:12:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3069,9 +3069,9 @@
       }
     },
     "423-pkg-krb": {
-      "app_version": "4.23.8_1",
+      "app_version": "4.23.11",
       "arch": "amd64",
-      "generated": "2026-08-01T19:56:58Z",
+      "generated": "2026-08-09T15:23:19Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3379,7 +3379,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -3595,8 +3595,8 @@
             "licenses": [
               "OPENLDAP"
             ],
-            "name": "lmdb0",
-            "version": "0.9.35"
+            "name": "lmdb",
+            "version": "1.0.0,1"
           },
           {
             "licenses": [
@@ -3639,7 +3639,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -3890,7 +3890,7 @@
               "GPLv3+"
             ],
             "name": "samba423",
-            "version": "4.23.8_1"
+            "version": "4.23.11"
           },
           {
             "licenses": [
@@ -4105,9 +4105,9 @@
       }
     },
     "423-pkg-latest": {
-      "app_version": "4.23.8_1",
+      "app_version": "4.23.11",
       "arch": "amd64",
-      "generated": "2026-08-01T19:54:54Z",
+      "generated": "2026-08-09T15:13:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4415,7 +4415,7 @@
               "LGPL20"
             ],
             "name": "glib",
-            "version": "2.86.4,2"
+            "version": "2.88.3,2"
           },
           {
             "licenses": [
@@ -4624,8 +4624,8 @@
             "licenses": [
               "OPENLDAP"
             ],
-            "name": "lmdb0",
-            "version": "0.9.35"
+            "name": "lmdb",
+            "version": "1.0.0,1"
           },
           {
             "licenses": [
@@ -4661,7 +4661,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.4"
+            "version": "0.26.5"
           },
           {
             "licenses": [
@@ -4912,7 +4912,7 @@
               "GPLv3+"
             ],
             "name": "samba423",
-            "version": "4.23.8_1"
+            "version": "4.23.11"
           },
           {
             "licenses": [

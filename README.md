@@ -21,9 +21,9 @@ SMB/CIFS file sharing and Active Directory compatible Domain Controller for Free
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `422-pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
-| `422-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
-| `423-pkg` / `latest` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users — recommended. |
-| `423-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
+| `422-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
+| `423-pkg` / `latest` | **FreeBSD Quarterly**. Uses stable, tested packages. | Most users. Matches Linux Docker behavior. |
+| `423-pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 | `423-pkg-krb` | **MIT Kerberos**. Built from ports with MIT KRB5 instead of Heimdal. | Alternative build. |
 
 ## Prerequisites
