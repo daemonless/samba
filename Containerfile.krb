@@ -43,7 +43,7 @@ RUN pkg update && \
 RUN git clone --depth 1 --no-checkout --filter=blob:none \
         https://git.FreeBSD.org/ports.git /tmp/ports && \
     cd /tmp/ports && \
-    git sparse-checkout set Mk Templates Tools Keywords net/samba${SAMBA_VERSION} lang/perl5.42 lang/python312 databases/lmdb && \
+    git sparse-checkout set Mk Templates Tools Keywords net/samba${SAMBA_VERSION} lang/perl5.42 lang/python312 databases/lmdb0 && \
     git checkout && \
     ln -s /tmp/ports /usr/ports
 
