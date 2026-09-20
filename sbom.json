@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-11T23:41:26Z",
+  "generated": "2026-09-20T23:50:53Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-09-11T23:32:58Z",
+      "generated": "2026-09-20T23:44:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -49,6 +49,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -174,6 +181,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -252,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -1013,7 +1027,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 119,
+        "freebsd": 121,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -1021,13 +1035,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 148
+        "total": 150
       }
     },
     "422-pkg-latest": {
       "app_version": "4.22.11_1",
       "arch": "amd64",
-      "generated": "2026-09-11T23:31:37Z",
+      "generated": "2026-09-20T23:43:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1071,6 +1085,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -1196,6 +1217,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -1274,7 +1302,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -1456,7 +1484,7 @@
               "GPLv2+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.3_2"
+            "version": "1.12.4"
           },
           {
             "licenses": [
@@ -1574,7 +1602,7 @@
               "OPENLDAP"
             ],
             "name": "openldap26-client",
-            "version": "2.6.14"
+            "version": "2.6.15"
           },
           {
             "licenses": [
@@ -1616,7 +1644,7 @@
               "MIT"
             ],
             "name": "py312-anyio",
-            "version": "4.15.0"
+            "version": "4.15.1"
           },
           {
             "licenses": [
@@ -1891,7 +1919,7 @@
           {
             "name": "anyio",
             "purl": "",
-            "version": "4.15.0"
+            "version": "4.15.1"
           },
           {
             "name": "async-generator",
@@ -2035,7 +2063,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 119,
+        "freebsd": 121,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -2043,13 +2071,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 148
+        "total": 150
       }
     },
     "423-pkg": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-09-11T23:31:26Z",
+      "generated": "2026-09-20T23:38:34Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2093,6 +2121,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -2218,6 +2253,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -2296,7 +2338,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -3057,7 +3099,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 119,
+        "freebsd": 121,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -3065,13 +3107,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 148
+        "total": 150
       }
     },
     "423-pkg-krb": {
       "app_version": "4.23.11_2",
       "arch": "amd64",
-      "generated": "2026-09-11T23:40:48Z",
+      "generated": "2026-09-20T23:48:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3115,6 +3157,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -3240,6 +3289,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -3318,7 +3374,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -3507,7 +3563,7 @@
               "GPLv2+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.3_2"
+            "version": "1.12.4"
           },
           {
             "licenses": [
@@ -3632,7 +3688,7 @@
               "OPENLDAP"
             ],
             "name": "openldap26-client",
-            "version": "2.6.14"
+            "version": "2.6.15"
           },
           {
             "licenses": [
@@ -3674,7 +3730,7 @@
               "MIT"
             ],
             "name": "py312-anyio",
-            "version": "4.15.0"
+            "version": "4.15.1"
           },
           {
             "licenses": [
@@ -3949,7 +4005,7 @@
           {
             "name": "anyio",
             "purl": "",
-            "version": "4.15.0"
+            "version": "4.15.1"
           },
           {
             "name": "async-generator",
@@ -4093,7 +4149,7 @@
       "source": "krb",
       "summary": {
         "dotnet": 0,
-        "freebsd": 121,
+        "freebsd": 123,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -4101,13 +4157,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 150
+        "total": 152
       }
     },
     "423-pkg-latest": {
       "app_version": "4.23.11_2",
       "arch": "amd64",
-      "generated": "2026-09-11T23:32:05Z",
+      "generated": "2026-09-20T23:39:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4151,6 +4207,13 @@
               "CDDL-1.0"
             ],
             "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
             "version": "15.1"
           },
           {
@@ -4276,6 +4339,13 @@
             "licenses": [
               "BSD2CLAUSE"
             ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
             "name": "FreeBSD-runtime",
             "version": "15.1p3"
           },
@@ -4354,7 +4424,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.129"
           },
           {
             "licenses": [
@@ -4536,7 +4606,7 @@
               "GPLv2+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.3_2"
+            "version": "1.12.4"
           },
           {
             "licenses": [
@@ -4654,7 +4724,7 @@
               "OPENLDAP"
             ],
             "name": "openldap26-client",
-            "version": "2.6.14"
+            "version": "2.6.15"
           },
           {
             "licenses": [
@@ -4696,7 +4766,7 @@
               "MIT"
             ],
             "name": "py312-anyio",
-            "version": "4.15.0"
+            "version": "4.15.1"
           },
           {
             "licenses": [
@@ -4971,7 +5041,7 @@
           {
             "name": "anyio",
             "purl": "",
-            "version": "4.15.0"
+            "version": "4.15.1"
           },
           {
             "name": "async-generator",
@@ -5115,7 +5185,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 119,
+        "freebsd": 121,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -5123,7 +5193,7 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 148
+        "total": 150
       }
     }
   }
