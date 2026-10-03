@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-29T20:30:53Z",
+  "generated": "2026-10-03T17:06:55Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.10_1",
       "arch": "amd64",
-      "generated": "2026-09-29T20:23:27Z",
+      "generated": "2026-10-03T16:58:03Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1039,9 +1039,9 @@
       }
     },
     "422-pkg-latest": {
-      "app_version": "4.22.11_1",
+      "app_version": "4.22.11_2",
       "arch": "amd64",
-      "generated": "2026-09-29T20:23:22Z",
+      "generated": "2026-10-03T16:58:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1323,7 +1323,7 @@
               "GPLv2+"
             ],
             "name": "dbus-glib",
-            "version": "0.114"
+            "version": "0.116"
           },
           {
             "licenses": [
@@ -1616,7 +1616,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -1630,7 +1630,7 @@
               "MIT"
             ],
             "name": "popt",
-            "version": "1.19_2,1"
+            "version": "1.19,2"
           },
           {
             "licenses": [
@@ -1767,7 +1767,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-pycparser",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "licenses": [
@@ -1825,7 +1825,7 @@
               "MIT"
             ],
             "name": "py312-truststore",
-            "version": "0.10.4"
+            "version": "0.10.4_1"
           },
           {
             "licenses": [
@@ -1860,7 +1860,7 @@
               "GPLv3+"
             ],
             "name": "samba422",
-            "version": "4.22.11_1"
+            "version": "4.22.11_2"
           },
           {
             "licenses": [
@@ -2009,7 +2009,7 @@
           {
             "name": "pycparser",
             "purl": "",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "name": "pylsqpack",
@@ -2077,7 +2077,7 @@
     "423-pkg": {
       "app_version": "4.23.8_1",
       "arch": "amd64",
-      "generated": "2026-09-29T20:22:58Z",
+      "generated": "2026-10-03T16:58:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3111,9 +3111,9 @@
       }
     },
     "423-pkg-krb": {
-      "app_version": "4.23.11_2",
+      "app_version": "4.23.13",
       "arch": "amd64",
-      "generated": "2026-09-29T20:30:12Z",
+      "generated": "2026-10-03T17:06:15Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3395,7 +3395,7 @@
               "GPLv2+"
             ],
             "name": "dbus-glib",
-            "version": "0.114"
+            "version": "0.116"
           },
           {
             "licenses": [
@@ -3702,7 +3702,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -3716,7 +3716,7 @@
               "MIT"
             ],
             "name": "popt",
-            "version": "1.19_2,1"
+            "version": "1.19,2"
           },
           {
             "licenses": [
@@ -3853,7 +3853,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-pycparser",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "licenses": [
@@ -3911,7 +3911,7 @@
               "MIT"
             ],
             "name": "py312-truststore",
-            "version": "0.10.4"
+            "version": "0.10.4_1"
           },
           {
             "licenses": [
@@ -3946,7 +3946,7 @@
               "GPLv3+"
             ],
             "name": "samba423",
-            "version": "4.23.11_2"
+            "version": "4.23.13"
           },
           {
             "licenses": [
@@ -4095,7 +4095,7 @@
           {
             "name": "pycparser",
             "purl": "",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "name": "pylsqpack",
@@ -4161,9 +4161,9 @@
       }
     },
     "423-pkg-latest": {
-      "app_version": "4.23.11_2",
+      "app_version": "4.23.11_3",
       "arch": "amd64",
-      "generated": "2026-09-29T20:22:59Z",
+      "generated": "2026-10-03T16:58:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4445,7 +4445,7 @@
               "GPLv2+"
             ],
             "name": "dbus-glib",
-            "version": "0.114"
+            "version": "0.116"
           },
           {
             "licenses": [
@@ -4738,7 +4738,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -4752,7 +4752,7 @@
               "MIT"
             ],
             "name": "popt",
-            "version": "1.19_2,1"
+            "version": "1.19,2"
           },
           {
             "licenses": [
@@ -4889,7 +4889,7 @@
               "BSD3CLAUSE"
             ],
             "name": "py312-pycparser",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "licenses": [
@@ -4947,7 +4947,7 @@
               "MIT"
             ],
             "name": "py312-truststore",
-            "version": "0.10.4"
+            "version": "0.10.4_1"
           },
           {
             "licenses": [
@@ -4982,7 +4982,7 @@
               "GPLv3+"
             ],
             "name": "samba423",
-            "version": "4.23.11_2"
+            "version": "4.23.11_3"
           },
           {
             "licenses": [
@@ -5131,7 +5131,7 @@
           {
             "name": "pycparser",
             "purl": "",
-            "version": "2.23"
+            "version": "3.0"
           },
           {
             "name": "pylsqpack",

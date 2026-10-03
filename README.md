@@ -42,7 +42,7 @@ services:
     environment:
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/samba:/config"
+      - "/containers/samba:/config"
       - "/shares:/shares"
     ports:
       - "445:445"
@@ -87,7 +87,7 @@ services:
       - shares: /shares
 volumes:
   samba:
-    device: '/path/to/containers/samba'
+    device: '/containers/samba'
   shares:
     device: '/shares'
 ```
@@ -112,45 +112,6 @@ Save the files above, then run `appjail-director up`.
 >
 > To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
 
-### Podman CLI
-
-```bash
-podman run -d --name samba \
-  -p 445:445 \
-  -p 139:139 \
-  -e TZ=UTC \
-  -v /path/to/containers/samba:/config \
-  -v /shares:/shares \
-  ghcr.io/daemonless/samba:latest
-```
-
-Save as `run.sh`, then run `sh run.sh`.
-
-### AppJail
-
-
-```bash
-appjail oci run -Pd \
-  -o overwrite=force \
-  -o container="args:--pull" \
-  -o virtualnet=":<random> default" \
-  -o nat \
-  -o expose="445:445 proto:tcp" \
-  -o expose="139:139 proto:tcp" \
-  -e TZ=UTC \
-  -o fstab="/path/to/containers/samba /config <pseudofs>" \
-  -o fstab="/shares /shares <pseudofs>" \
-  ghcr.io/daemonless/samba:latest samba
-```
-
-Save the files above, then run `sh run.sh`.
-
-
-> [!WARNING]
-> Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the jail's IPv4 address or hostname assigned by the virtual network.
->
-> To avoid exposing ports, just remove the `expose` option in your `appjail-director.yml` or from your command-line arguments.
-
 ### Bastille
 
 > [!WARNING]
@@ -166,40 +127,11 @@ services:
     environment:
       - TZ=UTC
     volumes:
-      - "/path/to/containers/samba:/config"
+      - "/containers/samba:/config"
       - "/shares:/shares"
 ```
 
-Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
-
-```bash
-bastille create -O \
-  --env TZ=UTC \
-  --volume /path/to/containers/samba /config \
-  --volume /shares /shares \
-  samba ghcr.io/daemonless/samba:latest inherit
-```
-
-### Ansible
-
-```yaml
-- name: Deploy samba
-  containers.podman.podman_container:
-    name: samba
-    image: "ghcr.io/daemonless/samba:latest"
-    state: started
-    restart_policy: always
-    env:
-      TZ: "UTC"
-    ports:
-      - "445:445"
-      - "139:139"
-    volumes:
-      - "/path/to/containers/samba:/config"
-      - "/shares:/shares"
-```
-
-Save as `samba-deploy.yaml`, then run `ansible-playbook samba-deploy.yaml`.
+Save as `bastille-compose.yml`, then run `bastille up`.
 
 ## Parameters
 
