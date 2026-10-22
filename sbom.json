@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T07:53:29Z",
+  "generated": "2026-10-22T00:10:11Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.11_2",
       "arch": "amd64",
-      "generated": "2026-10-11T07:45:28Z",
+      "generated": "2026-10-22T00:00:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -238,7 +238,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -266,7 +266,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -803,7 +803,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -1041,7 +1041,7 @@
     "422-pkg-latest": {
       "app_version": "4.22.11_2",
       "arch": "amd64",
-      "generated": "2026-10-11T07:44:59Z",
+      "generated": "2026-10-22T00:00:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1225,7 +1225,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -1274,7 +1274,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -1302,7 +1302,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1337,7 +1337,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.5"
+            "version": "2.9.0"
           },
           {
             "name": "gamin",
@@ -1434,7 +1434,7 @@
               "MIT"
             ],
             "name": "libX11",
-            "version": "1.8.13_1,1"
+            "version": "1.8.14,1"
           },
           {
             "licenses": [
@@ -1573,7 +1573,7 @@
               "OPENLDAP"
             ],
             "name": "lmdb0",
-            "version": "0.9.35"
+            "version": "0.9.36"
           },
           {
             "licenses": [
@@ -1681,14 +1681,14 @@
               "APACHE20"
             ],
             "name": "py312-cryptography",
-            "version": "50.0.1,1"
+            "version": "50.0.1_1,1"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "py312-dnspython",
-            "version": "2.8.0_1,1"
+            "version": "2.9.0,1"
           },
           {
             "licenses": [
@@ -1839,7 +1839,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -1895,7 +1895,7 @@
               "MIT"
             ],
             "name": "xorgproto",
-            "version": "2025.1"
+            "version": "2026.1"
           },
           {
             "licenses": [
@@ -1949,7 +1949,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.8.0"
+            "version": "2.9.0"
           },
           {
             "name": "example",
@@ -2077,7 +2077,7 @@
     "423-pkg": {
       "app_version": "4.23.11_3",
       "arch": "amd64",
-      "generated": "2026-10-11T07:45:40Z",
+      "generated": "2026-10-22T00:00:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2261,7 +2261,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -2310,7 +2310,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -2338,7 +2338,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -2875,7 +2875,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -3111,9 +3111,9 @@
       }
     },
     "423-pkg-krb": {
-      "app_version": "4.23.13_1",
+      "app_version": "4.23.13_2",
       "arch": "amd64",
-      "generated": "2026-10-11T07:52:54Z",
+      "generated": "2026-10-22T00:09:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3297,7 +3297,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -3346,7 +3346,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -3374,7 +3374,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -3409,7 +3409,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.5"
+            "version": "2.9.0"
           },
           {
             "name": "gamin",
@@ -3513,7 +3513,7 @@
               "MIT"
             ],
             "name": "libX11",
-            "version": "1.8.13_1,1"
+            "version": "1.8.14,1"
           },
           {
             "licenses": [
@@ -3652,7 +3652,7 @@
               "OPENLDAP"
             ],
             "name": "lmdb0",
-            "version": "0.9.35"
+            "version": "0.9.36"
           },
           {
             "licenses": [
@@ -3767,14 +3767,14 @@
               "APACHE20"
             ],
             "name": "py312-cryptography",
-            "version": "50.0.1,1"
+            "version": "50.0.1_1,1"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "py312-dnspython",
-            "version": "2.8.0_1,1"
+            "version": "2.9.0,1"
           },
           {
             "licenses": [
@@ -3925,7 +3925,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -3946,7 +3946,7 @@
               "GPLv3+"
             ],
             "name": "samba423",
-            "version": "4.23.13_1"
+            "version": "4.23.13_2"
           },
           {
             "licenses": [
@@ -3981,7 +3981,7 @@
               "MIT"
             ],
             "name": "xorgproto",
-            "version": "2025.1"
+            "version": "2026.1"
           },
           {
             "licenses": [
@@ -4035,7 +4035,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.8.0"
+            "version": "2.9.0"
           },
           {
             "name": "example",
@@ -4163,7 +4163,7 @@
     "423-pkg-latest": {
       "app_version": "4.23.13_1",
       "arch": "amd64",
-      "generated": "2026-10-11T07:45:51Z",
+      "generated": "2026-10-22T00:01:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4347,7 +4347,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -4396,7 +4396,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -4424,7 +4424,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -4459,7 +4459,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.5"
+            "version": "2.9.0"
           },
           {
             "name": "gamin",
@@ -4556,7 +4556,7 @@
               "MIT"
             ],
             "name": "libX11",
-            "version": "1.8.13_1,1"
+            "version": "1.8.14,1"
           },
           {
             "licenses": [
@@ -4695,7 +4695,7 @@
               "OPENLDAP"
             ],
             "name": "lmdb0",
-            "version": "0.9.35"
+            "version": "0.9.36"
           },
           {
             "licenses": [
@@ -4803,14 +4803,14 @@
               "APACHE20"
             ],
             "name": "py312-cryptography",
-            "version": "50.0.1,1"
+            "version": "50.0.1_1,1"
           },
           {
             "licenses": [
               "ISCL"
             ],
             "name": "py312-dnspython",
-            "version": "2.8.0_1,1"
+            "version": "2.9.0,1"
           },
           {
             "licenses": [
@@ -4961,7 +4961,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14_1"
+            "version": "3.12.15"
           },
           {
             "licenses": [
@@ -5017,7 +5017,7 @@
               "MIT"
             ],
             "name": "xorgproto",
-            "version": "2025.1"
+            "version": "2026.1"
           },
           {
             "licenses": [
@@ -5071,7 +5071,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.8.0"
+            "version": "2.9.0"
           },
           {
             "name": "example",
