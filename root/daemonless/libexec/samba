@@ -1,5 +1,5 @@
 #!/bin/sh
-# Samba s6 service
+# Start samba; /init has already dropped to the run user.
 
 if [ ! -f /config/smb.conf ]; then
     mkdir -p /config
