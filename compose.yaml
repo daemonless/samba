@@ -24,7 +24,7 @@ x-daemonless:
 
 services:
   samba:
-    image: ghcr.io/daemonless/samba:pkg
+    image: ghcr.io/daemonless/samba:latest
     container_name: samba
     restart: unless-stopped
 
