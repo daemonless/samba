@@ -156,7 +156,7 @@ Save as `bastille-compose.yml`, then run `bastille up`.
 | `139` | TCP | NetBIOS session |
 
 **Architectures:** amd64
-**User:** `root` (UID/GID via PUID/PGID, defaults to 1000:1000)
+**User:** `root` — the service process stays root by design, not dropped to `bsd`
 **Base:** FreeBSD 15.1
 
 ---
