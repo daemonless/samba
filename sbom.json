@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T14:06:37Z",
+  "generated": "2026-11-13T23:51:39Z",
   "image": "samba",
   "tags": {
     "422-pkg": {
       "app_version": "4.22.11_2",
       "arch": "amd64",
-      "generated": "2026-11-04T13:53:41Z",
+      "generated": "2026-11-13T23:40:27Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -623,7 +623,7 @@
               "MPL20"
             ],
             "name": "py312-certifi",
-            "version": "2026.7.22"
+            "version": "2026.10.23"
           },
           {
             "licenses": [
@@ -796,7 +796,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -877,7 +877,7 @@
           {
             "name": "certifi",
             "purl": "",
-            "version": "2026.7.22"
+            "version": "2026.10.23"
           },
           {
             "name": "cffi",
@@ -1020,7 +1020,7 @@
     "422-pkg-latest": {
       "app_version": "4.22.11_3",
       "arch": "amd64",
-      "generated": "2026-11-04T13:52:22Z",
+      "generated": "2026-11-13T23:40:57Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1309,7 +1309,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "name": "gamin",
@@ -1595,7 +1595,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -1660,7 +1660,7 @@
               "ISCL"
             ],
             "name": "py312-dnspython",
-            "version": "2.9.1,1"
+            "version": "2.9.2,1"
           },
           {
             "licenses": [
@@ -1907,7 +1907,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.9.1"
+            "version": "2.9.2"
           },
           {
             "name": "example",
@@ -2035,7 +2035,7 @@
     "423-pkg": {
       "app_version": "4.23.13",
       "arch": "amd64",
-      "generated": "2026-11-04T13:51:59Z",
+      "generated": "2026-11-13T23:41:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -2653,7 +2653,7 @@
               "MPL20"
             ],
             "name": "py312-certifi",
-            "version": "2026.7.22"
+            "version": "2026.10.23"
           },
           {
             "licenses": [
@@ -2826,7 +2826,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -2907,7 +2907,7 @@
           {
             "name": "certifi",
             "purl": "",
-            "version": "2026.7.22"
+            "version": "2026.10.23"
           },
           {
             "name": "cffi",
@@ -3050,7 +3050,7 @@
     "423-pkg-krb": {
       "app_version": "4.23.13_2",
       "arch": "amd64",
-      "generated": "2026-11-04T14:05:34Z",
+      "generated": "2026-11-13T23:50:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -3339,7 +3339,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "name": "gamin",
@@ -3639,7 +3639,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -3704,7 +3704,7 @@
               "ISCL"
             ],
             "name": "py312-dnspython",
-            "version": "2.9.1,1"
+            "version": "2.9.2,1"
           },
           {
             "licenses": [
@@ -3951,7 +3951,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.9.1"
+            "version": "2.9.2"
           },
           {
             "name": "example",
@@ -4079,7 +4079,7 @@
     "423-pkg-latest": {
       "app_version": "4.23.13_2",
       "arch": "amd64",
-      "generated": "2026-11-04T13:52:45Z",
+      "generated": "2026-11-13T23:40:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -4368,7 +4368,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.9.0"
+            "version": "2.10.0"
           },
           {
             "name": "gamin",
@@ -4654,7 +4654,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -4719,7 +4719,7 @@
               "ISCL"
             ],
             "name": "py312-dnspython",
-            "version": "2.9.1,1"
+            "version": "2.9.2,1"
           },
           {
             "licenses": [
@@ -4966,7 +4966,7 @@
           {
             "name": "dnspython",
             "purl": "",
-            "version": "2.9.1"
+            "version": "2.9.2"
           },
           {
             "name": "example",
