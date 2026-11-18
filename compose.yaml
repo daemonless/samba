@@ -7,7 +7,7 @@ x-daemonless:
   description: "SMB/CIFS file sharing and Active Directory compatible Domain Controller for FreeBSD."
   upstream_url: "https://www.samba.org/"
   web_url: "https://www.samba.org/"
-  freshports_url: "https://www.freshports.org/net/samba422/"
+  freshports_url: "https://www.freshports.org/net/samba423/"
   user: "root"
   mlock: false
   appjail: true
@@ -32,8 +32,8 @@ services:
       - TZ=UTC
 
     volumes:
-      - /containers/samba:/config
-      - /shares:/shares
+      - /path/to/containers/samba:/config
+      - /path/to/shares:/shares
 
     ports:
       - 445:445

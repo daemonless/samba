@@ -63,7 +63,7 @@ RUN cd /tmp/ports/net/samba${SAMBA_VERSION} && \
 FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG SAMBA_VERSION=422
+ARG SAMBA_VERSION=423
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="Samba" \
